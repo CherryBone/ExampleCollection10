@@ -1,0 +1,1051 @@
+﻿[2016.01.28-08.45.45:874][  0]Log file open, 01/28/16 16:45:45
+[2016.01.28-08.45.45:874][  0]LogInit:Display: Running engine for game: ExampleCollection10
+[2016.01.28-08.45.45:874][  0]LogPlatformFile: Not using cached read wrapper
+[2016.01.28-08.45.45:875][  0]LogInit:Display: RandInit(2070011338) SRandInit(2070011339).
+[2016.01.28-08.45.45:875][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.28-08.45.45:875][  0]LogStats: Stats thread started at 0.090698
+[2016.01.28-08.45.45:875][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.01.28-08.45.45:875][  0]LogInit: API Version: 2758231
+[2016.01.28-08.45.45:875][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2016.01.28-08.45.45:875][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.28-08.45.45:875][  0]LogInit: Build Configuration: Development
+[2016.01.28-08.45.45:875][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.28-08.45.45:875][  0]LogInit: Command line:  
+[2016.01.28-08.45.45:875][  0]LogInit: Base directory: D:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.28-08.45.45:875][  0]LogInit: Rocket: 1
+[2016.01.28-08.45.45:883][  0]LogInit: Using libcurl 7.41.0
+[2016.01.28-08.45.45:883][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.28-08.45.45:883][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.28-08.45.45:883][  0]LogInit:  - other features:
+[2016.01.28-08.45.45:883][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.28-08.45.45:883][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.28-08.45.45:883][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.28-08.45.45:883][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.28-08.45.45:883][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.28-08.45.45:883][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.28-08.45.45:883][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.28-08.45.45:883][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.28-08.45.45:883][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.28-08.45.45:883][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.28-08.45.45:889][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.28-08.45.45:894][  0]LogInit: Object subsystem initialized
+[2016.01.28-08.45.45:895][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.28-08.45.45:895][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.28-08.45.45:904][  0]LogInit: Computer: PLAN-CHENXINGHU
+[2016.01.28-08.45.45:904][  0]LogInit: User: chenxinghui
+[2016.01.28-08.45.45:904][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.28-08.45.45:904][  0]LogInit: High frequency timer resolution =3.117812 MHz
+[2016.01.28-08.45.45:904][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.28-08.45.45:904][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.28-08.45.45:904][  0]LogMemory: Process Physical Memory: 56.47 MB used, 56.47 MB peak
+[2016.01.28-08.45.45:904][  0]LogMemory: Process Virtual Memory: 58.71 MB used, 58.71 MB peak
+[2016.01.28-08.45.45:904][  0]LogMemory: Physical Memory: 3798.55 MB used, 8130.04 MB total
+[2016.01.28-08.45.45:904][  0]LogMemory: Virtual Memory: 351.46 MB used, 8388608.00 MB total
+[2016.01.28-08.45.46:368][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2016.01.28-08.45.46:368][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2016.01.28-08.45.46:368][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.28-08.45.46:375][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.28-08.45.46:375][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.28-08.45.46:383][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.28-08.45.46:397][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (E:/Unreal Work Space/ExampleCollection10/Intermediate/Shaders/WorkingDirectory/9140/).
+[2016.01.28-08.45.46:397][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/CHENXI~1/AppData/Local/Temp/UnrealShaderWorkingDir/040D176F49B5611584EFEF9B1761334B/'.
+[2016.01.28-08.45.46:397][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.28-08.45.47:407][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.28-08.45.47:411][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.28-08.45.47:415][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.28-08.45.47:419][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.28-08.45.47:423][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.28-08.45.47:426][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.28-08.45.47:428][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.28-08.45.47:431][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.28-08.45.47:434][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.28-08.45.47:437][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.28-08.45.47:439][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.28-08.45.47:445][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.28-08.45.47:445][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.28-08.45.47:446][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.28-08.45.47:461][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.28-08.45.47:463][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.28-08.45.47:466][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.28-08.45.47:468][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.28-08.45.47:468][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.28-08.45.47:535][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.28-08.45.47:578][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/chenxinghui/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.28-08.45.47:578][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/chenxinghui/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.01.28-08.45.47:578][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal Work Space/ExampleCollection10/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.28-08.45.47:578][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.28-08.45.47:578][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal Work Space/ExampleCollection10/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.28-08.45.47:578][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.28-08.45.47:630][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.28-08.45.47:643][  0]LogDerivedDataCache: Using Local data cache path C:/Users/chenxinghui/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.28-08.45.47:784][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.28-08.45.47:784][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.28-08.45.47:815][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.28-08.45.47:815][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.28-08.45.48:105][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.28-08.45.48:738][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.28-08.45.48:853][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2016.01.28-08.45.49:005][  0]SourceControl: Info Source control is disabled
+[2016.01.28-08.45.49:006][  0]SourceControl: Info Source control is disabled
+[2016.01.28-08.45.49:015][  0]SourceControl: Info Source control is disabled
+[2016.01.28-08.45.49:024][  0]SourceControl: Info Source control is disabled
+[2016.01.28-08.45.49:210][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.01.28-08.45.49:210][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.01.28-08.45.49:260][  0]LogEngine: Initializing Engine...
+[2016.01.28-08.45.49:262][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.28-08.45.49:263][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.28-08.45.49:378][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.28-08.45.49:394][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.28-08.45.49:519][  0]LogInit: FAudioDevice initialized.
+[2016.01.28-08.45.49:544][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/chenxinghui/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.28-08.45.49:550][  0]LogInit: Texture streaming: Enabled
+[2016.01.28-08.45.49:555][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.28-08.45.49:555][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.01.28-08.45.49:555][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId fcc8beb743eb3f315b3205bc8f91fbb8|ecc15fb7c1f4439e807eef072eca5f98|c014cd18-b694-4710-a8b7-958888126c98
+[2016.01.28-08.45.49:555][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.28-08.45.49:597][  0]LogInit: Transaction tracking system initialized
+[2016.01.28-08.45.49:620][  0]BlueprintLog: New page: Editor Load
+[2016.01.28-08.45.49:689][  0]LocalizationService: Info Localization service is disabled
+[2016.01.28-08.45.49:747][  0]LogConsoleResponse:Display: 
+[2016.01.28-08.45.49:843][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.28-08.45.49:908][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Work Space/ExampleCollection10/Content/' took 0.01s
+[2016.01.28-08.45.49:908][  0]SourceControl: Info Source control is disabled
+[2016.01.28-08.45.49:908][  0]Cmd: MAP LOAD FILE="E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.28-08.45.49:909][  0]LightingResults: New page: Lighting Build
+[2016.01.28-08.45.49:911][  0]MapCheck: New page: Map Check
+[2016.01.28-08.45.49:911][  0]LightingResults: New page: Lighting Build
+[2016.01.28-08.45.49:919][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000206E2AC0
+[2016.01.28-08.45.50:385][  0]LogAIModule: Creating AISystem for world MatTestMap
+[2016.01.28-08.45.50:393][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.28-08.45.50:393][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.28-08.45.50:438][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.9ms to complete.
+[2016.01.28-08.45.50:438][  0]LogFileHelpers: Loading map 'MatTestMap' took 0.530
+[2016.01.28-08.45.50:561][  0]LogCollectionManager: Loaded 0 collections in 0.002838 seconds
+[2016.01.28-08.45.50:586][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Work Space/ExampleCollection10/Saved/Collections/' took 0.01s
+[2016.01.28-08.45.50:586][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Work Space/ExampleCollection10/Content/Developers/chenxinghui/Collections/' took 0.00s
+[2016.01.28-08.45.50:586][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Work Space/ExampleCollection10/Content/Collections/' took 0.00s
+[2016.01.28-08.45.50:586][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.01.28-08.45.50:595][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 1893 classes and 338 folders.
+[2016.01.28-08.45.50:603][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.01.28-08.45.50:639][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.01.28-08.45.50:643][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.01.28-08.45.50:660][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.28-08.45.50:663][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.28-08.45.50:684][  0]LogLoad: Full Startup: 5.21 seconds (BP compile: 0.04 seconds)
+[2016.01.28-08.45.50:695][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.28-08.45.50:735][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.28-08.45.50:866][  0]LogRenderer: Reallocating scene render targets to support 824x552 (Frame:2).
+[2016.01.28-08.45.51:032][  3]LogAssetRegistry: Asset discovery search completed in 2.1885 seconds
+[2016.01.28-08.45.51:032][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.01.28-08.45.51:032][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2016.01.28-08.45.55:222][454]LogEditorViewport: Clicking on Actor (LMB): Emitter (VF_Test)
+[2016.01.28-08.45.57:092][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.28-08.46.14:022][641]LogEditorViewport: Clicking on Actor (LMB): Emitter (VF_Test)
+[2016.01.28-08.46.14:699][710]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2016.01.28-08.46.51:250][646]LogCascade: Quitting Cascade. FXSystem=0x00000000344693A0
+[2016.01.28-08.46.51:880][697]LogCascade: Quitting Cascade. FXSystem=0x0000000012E3CD60
+[2016.01.28-08.46.51:928][697]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2016.01.28-08.47.25:868][714]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012E3CD60
+[2016.01.28-08.47.25:868][714]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000344693A0
+[2016.01.28-08.47.35:647][418]LogCascade: Non-seeded module ParticleModuleAccelerationConstant
+[2016.01.28-08.47.42:999][ 98]LogSavePackage: Save=14.483875ms
+[2016.01.28-08.47.42:999][ 98]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/VF_Test34E0C9CD40D34779B1A28396A01B3467.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/test/VF_Test.uasset'
+[2016.01.28-08.47.43:003][ 98]LogSavePackage: Total save time: 45.046654ms
+[2016.01.28-08.47.43:003][ 98]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/test/VF_Test.uasset
+[2016.01.28-08.47.43:047][ 98]LogSavePackage: Save=7.185809ms
+[2016.01.28-08.47.43:047][ 98]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/P_Blizzard2847E9B243FED33BC619728FD6CF86C0.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset'
+[2016.01.28-08.47.43:051][ 98]LogSavePackage: Total save time: 33.646673ms
+[2016.01.28-08.47.43:051][ 98]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset
+[2016.01.28-08.47.47:163][411]LogCascade: Quitting Cascade. FXSystem=0x0000000012E3EA20
+[2016.01.28-08.47.47:269][411]LogCascade: Quitting Cascade. FXSystem=0x000000000FDFADE0
+[2016.01.28-08.47.47:315][411]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2016.01.28-08.47.51:218][411]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'VectorFieldComponent_3' or package '/Engine/Transient'.
+[2016.01.28-08.47.51:287][411]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012E3EA20
+[2016.01.28-08.47.51:287][411]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FDFADE0
+[2016.01.28-08.47.52:636][551]LogEditorViewport: Clicking on Actor (LMB): Emitter (VF_Test)
+[2016.01.28-08.47.58:872][147]LogSavePackage: Save=57.431622ms
+[2016.01.28-08.47.58:872][147]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/VF_Test04549F854104B49BCE12B2862973A98F.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/test/VF_Test.uasset'
+[2016.01.28-08.47.58:876][147]LogSavePackage: Total save time: 81.511971ms
+[2016.01.28-08.47.58:876][147]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/test/VF_Test.uasset
+[2016.01.28-08.47.58:905][147]LogSavePackage: Save=3.530040ms
+[2016.01.28-08.47.58:905][147]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/P_BlizzardDDFF486A43DF3C777EFC4A932031759C.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset'
+[2016.01.28-08.47.58:909][147]LogSavePackage: Total save time: 27.749266ms
+[2016.01.28-08.47.58:909][147]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset
+[2016.01.28-08.48.00:128][250]LogCascade: Quitting Cascade. FXSystem=0x000000000FE37A60
+[2016.01.28-08.48.16:707][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FE37A60
+[2016.01.28-08.48.16:792][541]LogSavePackage: Save=7.605333ms
+[2016.01.28-08.48.16:792][541]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/P_Blizzard4E48E98A49D2FDFC5FEAD39B80426294.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset'
+[2016.01.28-08.48.16:796][541]LogSavePackage: Total save time: 31.128243ms
+[2016.01.28-08.48.16:796][541]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset
+[2016.01.28-08.48.39:221][231]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/chenxinghui/Desktop/UE4 Texture/Architecture/SnowBlowCloud/T_SmokeSubUV_8X8_02.TGA)
+[2016.01.28-08.48.39:432][231]LogTexture:Display: Building textures: T_SmokeSubUV_8X8_02 (AutoDXT)
+[2016.01.28-08.48.42:129][231]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/chenxinghui/Desktop/UE4 Texture/Architecture/SnowBlowCloud/T_TilingClouds_01.TGA)
+[2016.01.28-08.48.42:153][231]LogTexture:Display: Building textures: T_TilingClouds_01 (AutoDXT)
+[2016.01.28-08.48.42:397][231]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/chenxinghui/Desktop/UE4 Texture/Architecture/SnowBlowCloud/T_TilingNoise03.TGA)
+[2016.01.28-08.48.42:503][231]LogTexture:Display: Building textures: T_TilingNoise03 (AutoDXT)
+[2016.01.28-08.48.45:990][365]LogSavePackage: Save=428.513000ms
+[2016.01.28-08.48.45:990][365]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/T_SmokeSubUV_8X8_0216D7FC0E4B03FD657CDF739DE8934DA1.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/T_SmokeSubUV_8X8_02.uasset'
+[2016.01.28-08.48.45:993][365]LogSavePackage: Total save time: 432.207588ms
+[2016.01.28-08.48.45:994][365]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/T_SmokeSubUV_8X8_02.uasset
+[2016.01.28-08.48.46:110][365]LogSavePackage: Save=99.468475ms
+[2016.01.28-08.48.46:110][365]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/T_TilingClouds_01392B9C604F9AAE373B9132946BA262F0.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/T_TilingClouds_01.uasset'
+[2016.01.28-08.48.46:113][365]LogSavePackage: Total save time: 103.102755ms
+[2016.01.28-08.48.46:113][365]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/T_TilingClouds_01.uasset
+[2016.01.28-08.48.46:706][365]LogSavePackage: Save=574.612915ms
+[2016.01.28-08.48.46:706][365]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/T_TilingNoise0387923DC44B9C939FF2AECF9B66A5F230.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/T_TilingNoise03.uasset'
+[2016.01.28-08.48.46:710][365]LogSavePackage: Total save time: 578.273483ms
+[2016.01.28-08.48.46:710][365]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/T_TilingNoise03.uasset
+[2016.01.28-08.48.48:956][568]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.01.28-08.48.50:865][724]LogTexture:Display: Building textures: T_SmokeSubUV_8X8_02 (AutoDXT)
+[2016.01.28-08.48.56:314][963]LogSavePackage: Save=58.304348ms
+[2016.01.28-08.48.56:314][963]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/T_SmokeSubUV_8X8_026714DAF647156195CDB840AF410B799A.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/T_SmokeSubUV_8X8_02.uasset'
+[2016.01.28-08.48.56:318][963]LogSavePackage: Total save time: 107.229043ms
+[2016.01.28-08.48.56:318][963]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/T_SmokeSubUV_8X8_02.uasset
+[2016.01.28-08.48.59:255][202]LogTexture:Display: Building textures: T_TilingClouds_01 (AutoDXT)
+[2016.01.28-08.49.00:848][317]LogSavePackage: Save=21.262989ms
+[2016.01.28-08.49.00:848][317]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/T_TilingClouds_010F16292E4653A3915EA9D0929CDA4EC9.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/T_TilingClouds_01.uasset'
+[2016.01.28-08.49.00:852][317]LogSavePackage: Total save time: 49.530569ms
+[2016.01.28-08.49.00:852][317]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/T_TilingClouds_01.uasset
+[2016.01.28-08.49.04:530][622]LogTexture:Display: Building textures: T_TilingNoise03 (AutoDXT)
+[2016.01.28-08.49.07:420][727]LogSavePackage: Save=64.998787ms
+[2016.01.28-08.49.07:420][727]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/T_TilingNoise039F7BEFAB43A8B0757B029E8B853BAA7C.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/T_TilingNoise03.uasset'
+[2016.01.28-08.49.07:424][727]LogSavePackage: Total save time: 97.011302ms
+[2016.01.28-08.49.07:425][727]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/T_TilingNoise03.uasset
+[2016.01.28-08.49.19:101][775]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.49.19:169][775]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.49.19:173][775]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.49.20:717][864]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.01.28-08.49.20:717][864]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.01.28-08.49.20:717][864]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.01.28-08.49.22:433][ 13]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.49.22:443][ 13]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.49.22:448][ 13]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.49.23:478][ 85]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.49.23:502][ 85]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.49.23:505][ 85]LogMaterial: 0.000023 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.49.24:832][179]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.49.24:832][179]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.49.24:832][179]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.49.31:674][774]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.49.31:677][774]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.49.32:675][852]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.49.32:675][852]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.49.32:675][852]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.49.36:630][203]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.49.36:633][203]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.49.36:634][203]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.01.28-08.49.37:728][269]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.49.37:728][269]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.49.37:728][269]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.49.52:272][537]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.49.52:275][537]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.49.52:277][537]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.49.52:279][537]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.49.52:304][537]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.01.28-08.49.53:563][629]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.49.53:563][629]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.49.53:563][629]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.49.55:599][815]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.49.55:602][815]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.49.56:818][921]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.49.56:818][921]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.49.56:818][921]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.49.56:849][924]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.49.56:851][924]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.49.58:067][ 20]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.49.58:067][ 20]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.49.58:067][ 20]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.50.10:799][881]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.50.10:801][881]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.50.10:826][881]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.01.28-08.50.11:716][941]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.50.11:716][941]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.50.11:716][941]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.50.13:312][ 89]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.50.13:315][ 89]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.50.14:241][160]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.50.14:241][160]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.50.14:241][160]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.50.17:626][466]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.50.17:628][466]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.50.18:552][529]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.50.18:552][529]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.50.18:552][529]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.50.23:096][936]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.50.23:098][936]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.50.24:096][ 11]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.50.24:096][ 11]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.50.24:096][ 11]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.50.25:681][152]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.50.25:683][152]LogMaterial: 0.000037 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.50.26:618][216]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.50.26:619][216]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.50.26:619][216]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.50.26:911][243]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.50.26:914][243]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.50.27:861][317]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.50.27:861][317]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.50.27:861][317]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.50.28:925][414]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.50.28:928][414]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.50.29:812][475]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.50.29:812][475]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.50.29:812][475]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.50.31:370][605]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.50.31:373][605]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.50.32:329][675]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.50.32:329][675]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.50.32:329][675]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.50.44:547][684]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.50.44:550][684]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.50.44:551][684]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.28-08.50.44:576][684]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.01.28-08.50.44:630][684]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.28-08.50.45:739][754]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.50.45:739][754]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.50.45:739][754]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.50.46:542][822]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.50.46:545][822]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.50.46:546][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.01.28-08.50.46:575][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.01.28-08.50.46:578][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.28-08.50.46:599][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.01.28-08.50.47:415][865]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.50.47:415][865]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.50.47:415][865]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.50.54:544][482]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.50.54:547][482]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.50.54:571][482]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.28-08.50.55:413][534]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.50.55:413][534]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.50.55:413][534]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.51.05:049][310]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.51.05:052][310]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.51.05:053][310]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.01.28-08.51.05:080][310]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.01.28-08.51.05:083][310]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.28-08.51.05:086][310]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.01.28-08.51.05:126][310]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.01.28-08.51.06:360][394]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.51.06:360][394]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.51.06:360][394]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.51.24:816][994]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.51.24:819][994]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.51.26:075][ 94]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.51.26:075][ 94]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.51.26:075][ 94]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.51.38:660][199]LogSavePackage: Save=13.812892ms
+[2016.01.28-08.51.38:660][199]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_BlizzardCloud42022BBD4EA8579A31403799CCB04027.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset'
+[2016.01.28-08.51.38:663][199]LogSavePackage: Total save time: 17.746098ms
+[2016.01.28-08.51.38:663][199]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset
+[2016.01.28-08.51.44:953][713]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.51.44:956][713]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.51.44:980][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.01.28-08.51.45:711][762]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.51.45:714][762]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.51.45:737][762]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.01.28-08.51.46:100][788]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.51.46:100][788]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.51.46:100][788]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.52.06:724][496]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.52.06:727][496]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.52.07:997][595]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.52.07:999][595]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.52.08:024][595]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.01.28-08.52.08:277][608]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.52.08:277][608]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.52.08:277][608]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.52.09:627][710]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.52.09:630][710]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.52.10:612][782]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.52.10:612][782]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.52.10:612][782]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.52.11:738][878]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.52.11:741][878]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.52.12:718][941]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.52.12:718][941]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.52.12:718][941]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.52.13:513][ 16]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.52.13:515][ 16]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.52.13:539][ 16]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.28-08.52.14:762][112]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.52.14:762][112]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.52.14:762][112]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.52.15:897][219]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.52.15:900][219]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.52.17:014][303]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.01.28-08.52.17:014][303]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.01.28-08.52.17:014][303]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.52.17:683][370]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.52.17:685][370]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.52.18:800][455]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-08.52.18:800][455]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.52.18:800][455]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.52.25:316][ 24]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.52.25:319][ 24]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.52.25:342][ 24]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.01.28-08.52.26:507][109]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-08.52.26:507][109]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.52.26:507][109]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.52.32:275][646]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.52.32:278][646]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.52.32:279][646]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2016.01.28-08.52.33:515][743]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-08.52.33:515][743]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.52.33:515][743]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.52.34:322][817]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.52.34:325][817]LogMaterial: 0.000128 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.52.34:419][817]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.01.28-08.52.34:422][817]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2016.01.28-08.52.35:405][901]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.52.35:408][901]LogMaterial: 0.000026 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.52.35:684][918]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-08.52.35:684][918]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.52.35:684][918]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.52.37:077][ 27]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.52.37:079][ 27]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.52.38:323][128]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-08.52.38:323][128]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.52.38:323][128]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.52.38:688][167]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.52.38:691][167]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.52.38:716][167]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2016.01.28-08.52.39:634][229]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-08.52.39:634][229]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.52.39:634][229]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.52.43:648][587]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2016.01.28-08.52.52:333][326]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Rendering/Materials/ExpressionReference/Depth/index.html?utm_source=editor&utm_medium=docs&utm_campaign=rich_tooltips#depthfade
+[2016.01.28-08.53.45:757][199]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.53.45:760][199]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.53.47:115][299]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-08.53.47:115][299]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.53.47:115][299]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.53.48:059][396]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.53.48:062][396]LogMaterial: 0.000124 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.53.48:088][396]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.01.28-08.53.49:012][459]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-08.53.49:012][459]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.53.49:012][459]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.53.49:475][505]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.53.49:478][505]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.53.50:446][580]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-08.53.50:446][580]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.53.50:446][580]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.54.44:883][180]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.54.44:886][180]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.54.46:535][306]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-08.54.46:535][306]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.54.46:535][306]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.54.46:780][327]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.54.46:783][327]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.54.46:809][327]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2016.01.28-08.54.47:914][410]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-08.54.47:914][410]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.54.47:914][410]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.54.48:761][485]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.54.48:763][485]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.54.49:826][562]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.54.49:829][562]LogMaterial: 0.000022 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.54.49:841][563]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-08.54.49:841][563]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.54.49:841][563]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.54.52:298][778]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.54.52:301][778]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.54.53:414][865]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-08.54.53:414][865]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.54.53:414][865]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.54.53:575][877]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.54.53:578][877]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.54.53:604][877]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2016.01.28-08.54.54:484][933]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-08.54.54:484][933]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.54.54:484][933]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.54.54:789][960]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.54.54:792][960]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.54.55:769][ 38]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-08.54.55:769][ 38]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.54.55:769][ 38]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.54.57:080][172]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.54.57:083][172]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.54.58:067][241]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-08.54.58:067][241]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.54.58:067][241]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.54.59:103][333]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.54.59:106][333]LogMaterial: 0.000134 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.55.00:056][397]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-08.55.00:056][397]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.55.00:056][397]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-08.55.01:448][507]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.55.01:450][507]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.55.02:354][566]LogMaterialEditor: Applying material Mat_BlizzardCloud
+[2016.01.28-08.55.02:678][566]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.55.02:683][566]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.55.02:773][566]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.55.02:779][566]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.55.02:784][566]LogMaterial: 0.002189 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.55.03:719][626]LogMaterialEditor: Saving and Compiling material Mat_BlizzardCloud
+[2016.01.28-08.55.04:516][626]LogSavePackage: Save=14.241076ms
+[2016.01.28-08.55.04:516][626]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_BlizzardCloud9338B4F44ADF4A7CA23899BA2997CC02.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset'
+[2016.01.28-08.55.04:521][626]LogSavePackage: Total save time: 42.575691ms
+[2016.01.28-08.55.04:521][626]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset
+[2016.01.28-08.55.04:526][626]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2016.01.28-08.55.04:526][626]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.55.04:526][626]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.01.28-08.55.26:835][468]LogMaterial:Warning: Material /Game/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.Mat_BlizzardCloud needed to have new flag set bUsedWithParticleSprites !
+[2016.01.28-08.55.26:859][468]LogMaterial:Warning: Material /Engine/Transient.Mat_BlizzardCloud needed to have new flag set bUsedWithParticleSprites !
+[2016.01.28-08.55.26:861][468]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.55.26:864][468]LogMaterial: 0.000179 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.55.26:866][468]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-08.55.26:871][468]LogMaterial: 0.000162 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-08.55.30:314][708]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2016.01.28-08.55.30:314][708]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-08.55.30:314][708]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.01.28-08.56.45:968][552]LogEditorViewport: Clicking on Actor (LMB): Emitter (VF_Test)
+[2016.01.28-08.56.51:177][964]LogEditorViewport: Clicking on Actor (LMB): Emitter (VF_Test)
+[2016.01.28-08.56.52:218][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/TestMap/MatTestMap" FILE="E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.28-08.56.52:463][ 35]LogSavePackage: Save=184.869705ms
+[2016.01.28-08.56.52:463][ 35]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/MatTestMap992175A240646413B02AD9B587B032BA.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap'
+[2016.01.28-08.56.52:466][ 35]LogSavePackage: Total save time: 235.527031ms
+[2016.01.28-08.56.52:466][ 35]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap
+[2016.01.28-08.56.52:499][ 35]LogFileHelpers: Saving map 'MatTestMap' took 0.344
+[2016.01.28-08.56.52:541][ 35]LogSavePackage: Save=7.761854ms
+[2016.01.28-08.56.52:541][ 35]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/P_Blizzard00F08E064EBC7CB36E5837AE10125405.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset'
+[2016.01.28-08.56.52:545][ 35]LogSavePackage: Total save time: 34.852326ms
+[2016.01.28-08.56.52:545][ 35]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset
+[2016.01.28-08.56.52:577][ 35]LogSavePackage: Save=6.267216ms
+[2016.01.28-08.56.52:577][ 35]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_BlizzardCloud13F5E31B40F9B97F4A34DEA8C6D8D929.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset'
+[2016.01.28-08.56.52:581][ 35]LogSavePackage: Total save time: 29.656693ms
+[2016.01.28-08.56.52:581][ 35]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset
+[2016.01.28-08.57.00:960][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.28-08.57.04:778][ 15]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Blizzard)
+[2016.01.28-08.58.02:781][188]LogCascade: Non-seeded module ParticleModuleColorOverLife
+[2016.01.28-08.59.07:318][100]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.28-08.59.58:597][691]LogCascade: Non-seeded module ParticleModuleSubUV
+[2016.01.28-09.00.09:945][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/TestMap/MatTestMap" FILE="E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.28-09.00.10:151][723]LogSavePackage: Save=172.284927ms
+[2016.01.28-09.00.10:151][723]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/MatTestMapFDD637754947A1A7902231896C9AF5C4.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap'
+[2016.01.28-09.00.10:154][723]LogSavePackage: Total save time: 196.402159ms
+[2016.01.28-09.00.10:154][723]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap
+[2016.01.28-09.00.10:185][723]LogFileHelpers: Saving map 'MatTestMap' took 0.320
+[2016.01.28-09.00.10:224][723]LogSavePackage: Save=8.281448ms
+[2016.01.28-09.00.10:224][723]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/P_BlizzardB8EB72C5447B4726C09A33AE04E68679.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset'
+[2016.01.28-09.00.10:227][723]LogSavePackage: Total save time: 30.957926ms
+[2016.01.28-09.00.10:227][723]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset
+[2016.01.28-09.00.48:208][182]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.28-09.00.54:186][692]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Blizzard)
+[2016.01.28-09.00.54:783][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.28-09.01.04:431][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.28-09.01.23:174][110]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Blizzard)
+[2016.01.28-09.01.24:354][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.28-09.02.10:028][313]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Blizzard)
+[2016.01.28-09.02.10:969][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.28-09.02.50:319][919]LogSavePackage: Save=9.227625ms
+[2016.01.28-09.02.50:319][919]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/P_Blizzard210206964356A7B45CDD908E49B056FD.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset'
+[2016.01.28-09.02.50:323][919]LogSavePackage: Total save time: 35.773803ms
+[2016.01.28-09.02.50:323][919]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset
+[2016.01.28-09.03.20:467][577]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.03.20:470][577]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.03.21:857][666]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-09.03.21:858][666]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.03.21:858][666]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-09.03.22:376][706]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.03.22:379][706]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.03.23:367][767]MaterialEditorStats: Info Base pass shader without light map: 10 instructions
+[2016.01.28-09.03.23:367][767]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.03.23:367][767]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-09.03.23:508][780]LogMaterialEditor: Applying material Mat_BlizzardCloud
+[2016.01.28-09.03.23:835][780]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.03.23:840][780]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.03.23:864][780]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.03.23:873][780]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.03.23:879][780]LogMaterial: 0.001131 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.03.26:673][946]LogMaterialEditor: Saving and Compiling material Mat_BlizzardCloud
+[2016.01.28-09.03.27:023][946]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.03.27:028][946]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.03.27:116][946]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.03.27:125][946]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.03.27:130][946]LogMaterial: 0.001017 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.03.29:244][946]LogSavePackage: Save=14.021372ms
+[2016.01.28-09.03.29:244][946]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_BlizzardCloud10CAFEAE405E6B886938DC9BB91FEEB1.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset'
+[2016.01.28-09.03.29:248][946]LogSavePackage: Total save time: 40.469728ms
+[2016.01.28-09.03.29:248][946]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset
+[2016.01.28-09.03.29:252][946]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2016.01.28-09.03.29:252][946]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.03.29:252][946]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.01.28-09.03.50:049][542]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.03.50:052][542]LogMaterial: 0.000041 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.03.51:331][628]MaterialEditorStats: Info Base pass shader without light map: 6 instructions
+[2016.01.28-09.03.51:331][628]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.03.51:331][628]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-09.03.52:451][714]LogMaterialEditor: Applying material Mat_BlizzardCloud
+[2016.01.28-09.03.52:775][714]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.03.52:780][714]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.03.52:880][714]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.03.52:901][714]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.03.52:915][714]LogMaterial: 0.006353 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.03.55:191][824]MaterialEditorStats: Info Base pass shader without light map: 25 instructions
+[2016.01.28-09.03.55:191][824]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.03.55:191][824]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.01.28-09.04.34:382][787]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.04.34:385][787]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.04.35:381][848]LogMaterialEditor: Applying material Mat_BlizzardCloud
+[2016.01.28-09.04.35:713][848]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.04.35:718][848]LogMaterial: 0.000034 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.04.35:763][848]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.04.35:770][848]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.04.35:776][848]LogMaterial: 0.001092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.04.36:187][873]LogMaterialEditor: Saving and Compiling material Mat_BlizzardCloud
+[2016.01.28-09.04.38:182][873]LogSavePackage: Save=14.237549ms
+[2016.01.28-09.04.38:182][873]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_BlizzardCloudD8F0B6D84AE78D65510B99B7961E5B0C.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset'
+[2016.01.28-09.04.38:186][873]LogSavePackage: Total save time: 37.458960ms
+[2016.01.28-09.04.38:186][873]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset
+[2016.01.28-09.04.38:190][873]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2016.01.28-09.04.38:190][873]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.04.38:190][873]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.01.28-09.04.45:252][415]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.04.45:255][415]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.04.46:252][477]MaterialEditorStats: Info Base pass shader without light map: 23 instructions
+[2016.01.28-09.04.46:252][477]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.04.46:252][477]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-09.04.46:477][495]LogMaterialEditor: Applying material Mat_BlizzardCloud
+[2016.01.28-09.04.46:812][495]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.04.46:818][495]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.04.46:910][495]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.04.46:922][495]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.04.46:938][495]LogMaterial: 0.009011 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.04.50:140][690]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.04.50:143][690]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.04.50:178][690]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.28-09.04.51:428][776]LogMaterialEditor: Applying material Mat_BlizzardCloud
+[2016.01.28-09.04.51:750][776]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.04.51:756][776]LogMaterial: 0.000026 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.04.51:845][776]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.04.51:853][776]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.04.51:864][776]LogMaterial: 0.005036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.04.55:252][975]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2016.01.28-09.04.55:252][975]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.04.55:252][975]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.01.28-09.05.07:634][904]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.05.07:637][904]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.05.08:723][974]MaterialEditorStats: Info Base pass shader without light map: 23 instructions
+[2016.01.28-09.05.08:723][974]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.05.08:723][974]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-09.05.09:025][998]LogMaterialEditor: Applying material Mat_BlizzardCloud
+[2016.01.28-09.05.09:347][998]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.05.09:353][998]LogMaterial: 0.000164 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.05.09:375][998]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.05.09:382][998]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.05.09:388][998]LogMaterial: 0.001085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.05.13:588][285]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2016.01.28-09.05.13:588][285]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.05.13:588][285]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.01.28-09.05.30:769][566]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.05.30:771][566]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.05.32:354][674]MaterialEditorStats: Info Base pass shader without light map: 23 instructions
+[2016.01.28-09.05.32:354][674]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.05.32:354][674]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-09.05.34:245][828]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.05.34:248][828]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.05.34:274][828]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.28-09.05.35:197][881]LogMaterialEditor: Applying material Mat_BlizzardCloud
+[2016.01.28-09.05.35:520][881]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.05.35:526][881]LogMaterial: 0.000131 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.05.35:588][881]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.05.35:596][881]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.05.35:602][881]LogMaterial: 0.001027 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.05.38:150][  1]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2016.01.28-09.05.38:150][  1]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.05.38:150][  1]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.01.28-09.05.45:958][567]LogSavePackage: Save=8.617903ms
+[2016.01.28-09.05.45:958][567]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/P_Blizzard1729D12D4B75E8F464B8FF84E99EFB95.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset'
+[2016.01.28-09.05.45:961][567]LogSavePackage: Total save time: 32.185070ms
+[2016.01.28-09.05.45:961][567]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset
+[2016.01.28-09.05.46:015][567]LogSavePackage: Save=14.650338ms
+[2016.01.28-09.05.46:015][567]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_BlizzardCloud39BA4B0442C3B5009F0BD1B292E68EAD.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset'
+[2016.01.28-09.05.46:019][567]LogSavePackage: Total save time: 37.727740ms
+[2016.01.28-09.05.46:019][567]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset
+[2016.01.28-09.05.54:271][145]LogSavePackage: Save=16.310797ms
+[2016.01.28-09.05.54:271][145]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/P_Blizzard696992F74C86C36AE93765B25E718039.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset'
+[2016.01.28-09.05.54:275][145]LogSavePackage: Total save time: 39.972264ms
+[2016.01.28-09.05.54:275][145]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset
+[2016.01.28-09.05.54:311][145]LogSavePackage: Save=12.217221ms
+[2016.01.28-09.05.54:311][145]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_BlizzardCloud_Inst2E7F837D446D3F231C81F9A51B86632A.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud_Inst.uasset'
+[2016.01.28-09.05.54:315][145]LogSavePackage: Total save time: 16.044907ms
+[2016.01.28-09.05.54:315][145]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud_Inst.uasset
+[2016.01.28-09.05.57:474][368]LogRenderer: Reallocating scene render targets to support 824x932 (Frame:160927).
+[2016.01.28-09.06.40:380][841]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.06.40:382][841]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.06.41:887][942]MaterialEditorStats: Info Base pass shader without light map: 23 instructions
+[2016.01.28-09.06.41:887][942]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.06.41:887][942]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.01.28-09.06.45:060][199]LogMaterialEditor: Applying material Mat_BlizzardCloud
+[2016.01.28-09.06.45:383][199]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.06.45:388][199]LogMaterial: 0.000160 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.06.45:455][199]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.06.45:463][199]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.06.45:469][199]LogMaterial: 0.001073 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.28-09.06.49:841][526]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2016.01.28-09.06.49:841][526]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.06.49:841][526]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.01.28-09.07.04:784][759]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.07.04:787][759]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.07.04:811][759]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.28-09.07.05:689][817]LogMaterialEditor: Applying material Mat_BlizzardCloud
+[2016.01.28-09.07.06:020][817]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.07.06:025][817]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.07.06:069][817]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.07.06:078][817]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.07.06:085][817]LogMaterial: 0.001110 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.28-09.07.06:700][856]LogMaterialEditor: Saving and Compiling material Mat_BlizzardCloud
+[2016.01.28-09.07.08:686][856]LogSavePackage: Save=14.547381ms
+[2016.01.28-09.07.08:686][856]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_BlizzardCloud1BCCC2A9457288ADEB32198301860A2C.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset'
+[2016.01.28-09.07.08:690][856]LogSavePackage: Total save time: 37.578918ms
+[2016.01.28-09.07.08:690][856]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset
+[2016.01.28-09.07.08:695][856]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2016.01.28-09.07.08:695][856]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.07.08:695][856]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.01.28-09.07.16:458][471]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Blizzard)
+[2016.01.28-09.07.17:352][535]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.28-09.08.17:886][591]LogSavePackage: Save=8.721822ms
+[2016.01.28-09.08.17:886][591]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/P_BlizzardC63BF7D246C35B40F078BB80038718F2.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset'
+[2016.01.28-09.08.17:890][591]LogSavePackage: Total save time: 36.156125ms
+[2016.01.28-09.08.17:890][591]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset
+[2016.01.28-09.08.18:161][606]LogSavePackage: Save=12.171036ms
+[2016.01.28-09.08.18:161][606]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_BlizzardCloud_Inst3DA8D141420D851CBEABD1BA550AE215.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud_Inst.uasset'
+[2016.01.28-09.08.18:165][606]LogSavePackage: Total save time: 38.860265ms
+[2016.01.28-09.08.18:165][606]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud_Inst.uasset
+[2016.01.28-09.08.22:333][958]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Blizzard)
+[2016.01.28-09.08.23:646][ 54]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Blizzard)
+[2016.01.28-09.08.24:844][148]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Blizzard)
+[2016.01.28-09.08.25:229][179]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Blizzard)
+[2016.01.28-09.08.25:992][241]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Blizzard)
+[2016.01.28-09.08.26:715][299]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.28-09.09.08:315][789]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.09.08:318][789]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.09.09:904][907]MaterialEditorStats: Info Base pass shader without light map: 25 instructions
+[2016.01.28-09.09.09:904][907]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.09.09:904][907]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.01.28-09.09.14:848][310]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.09.14:851][310]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.09.15:968][388]MaterialEditorStats: Info Base pass shader without light map: 25 instructions
+[2016.01.28-09.09.15:968][388]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.09.15:968][388]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.01.28-09.09.23:557][ 77]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.09.23:560][ 77]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.09.24:687][153]MaterialEditorStats: Info Base pass shader without light map: 25 instructions
+[2016.01.28-09.09.24:687][153]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.09.24:687][153]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.01.28-09.09.30:230][604]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.09.30:233][604]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.09.31:377][688]MaterialEditorStats: Info Base pass shader without light map: 25 instructions
+[2016.01.28-09.09.31:377][688]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.09.31:377][688]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.01.28-09.09.35:468][ 14]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.09.35:470][ 14]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.09.36:062][ 57]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.09.36:065][ 57]LogMaterial: 0.000029 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.09.36:816][108]MaterialEditorStats: Info Base pass shader without light map: 25 instructions
+[2016.01.28-09.09.36:816][108]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.09.36:816][108]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.01.28-09.09.40:056][362]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.09.40:059][362]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.09.40:084][362]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.01.28-09.09.41:052][419]LogMaterialEditor: Applying material Mat_BlizzardCloud
+[2016.01.28-09.09.41:421][419]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.09.41:427][419]LogMaterial: 0.000222 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.09.41:501][419]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.09.41:509][419]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.09.41:515][419]LogMaterial: 0.001080 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.28-09.09.45:064][615]MaterialEditorStats: Info Base pass shader without light map: 45 instructions
+[2016.01.28-09.09.45:064][615]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.09.45:064][615]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.01.28-09.10.11:108][571]LogSavePackage: Save=14.627565ms
+[2016.01.28-09.10.11:108][571]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_BlizzardCloud1C402069429CCE6493B896BD5DD67F90.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset'
+[2016.01.28-09.10.11:112][571]LogSavePackage: Total save time: 41.630477ms
+[2016.01.28-09.10.11:112][571]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset
+[2016.01.28-09.11.07:380][559]LogSavePackage: Save=8.977449ms
+[2016.01.28-09.11.07:380][559]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/P_BlizzardBCCDF80C4A647D18CAA67791F06E795E.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset'
+[2016.01.28-09.11.07:384][559]LogSavePackage: Total save time: 32.338060ms
+[2016.01.28-09.11.07:384][559]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset
+[2016.01.28-09.11.07:836][589]LogSavePackage: Save=6.341948ms
+[2016.01.28-09.11.07:836][589]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/P_Blizzard0BE25F2E4E7F80BC2C3E668FF5F3E337.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset'
+[2016.01.28-09.11.07:838][589]LogSavePackage: Total save time: 28.435003ms
+[2016.01.28-09.11.07:838][589]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset
+[2016.01.28-09.12.17:115][379]LogSavePackage: Save=8.802968ms
+[2016.01.28-09.12.17:115][379]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/P_Blizzard35271C1F4543B49C167EA286EB17BA47.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset'
+[2016.01.28-09.12.17:119][379]LogSavePackage: Total save time: 32.380722ms
+[2016.01.28-09.12.17:119][379]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset
+[2016.01.28-09.13.30:967][782]LogSavePackage: Save=8.775064ms
+[2016.01.28-09.13.30:967][782]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/P_Blizzard346947A441E2B7F48F2DA48CE2BCFAAF.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset'
+[2016.01.28-09.13.30:971][782]LogSavePackage: Total save time: 34.885041ms
+[2016.01.28-09.13.30:971][782]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset
+[2016.01.28-09.13.50:373][505]LogSavePackage: Save=44.019333ms
+[2016.01.28-09.13.50:373][505]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/P_Blizzard6C5A01C4476A2A9F5A8E518F7B31FE2E.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset'
+[2016.01.28-09.13.50:377][505]LogSavePackage: Total save time: 67.259349ms
+[2016.01.28-09.13.50:377][505]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset
+[2016.01.28-09.14.52:187][990]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Blizzard)
+[2016.01.28-09.15.16:014][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.28-09.15.38:244][775]LogSavePackage: Save=8.748122ms
+[2016.01.28-09.15.38:244][775]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/P_Blizzard06B6DF894AA3B0B310BD8C977CF88000.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset'
+[2016.01.28-09.15.38:248][775]LogSavePackage: Total save time: 32.150753ms
+[2016.01.28-09.15.38:248][775]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/P_Blizzard.uasset
+[2016.01.28-09.15.47:789][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_NarrowCapsule)
+[2016.01.28-09.16.01:861][730]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Blizzard)
+[2016.01.28-09.16.15:615][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_NarrowCapsule)
+[2016.01.28-09.16.28:540][977]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.16.28:543][977]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.16.29:539][ 47]LogMaterialEditor: Applying material Mat_BlizzardCloud
+[2016.01.28-09.16.29:873][ 47]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.16.29:879][ 47]LogMaterial: 0.000025 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.28-09.16.29:912][ 47]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.16.29:920][ 47]LogMaterial: Missing cached shader map for material Mat_BlizzardCloud, compiling. 
+[2016.01.28-09.16.29:926][ 47]LogMaterial: 0.001074 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.28-09.16.33:687][290]MaterialEditorStats: Info Base pass shader without light map: 30 instructions
+[2016.01.28-09.16.33:687][290]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.01.28-09.16.33:687][290]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.01.28-09.16.54:255][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/TestMap/MatTestMap" FILE="E:/Unreal Work Space/ExampleCollection10/Saved/Autosaves/Game/My/TestMap/MatTestMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.01.28-09.16.54:453][864]LogSavePackage: Save=171.035965ms
+[2016.01.28-09.16.54:453][864]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/MatTestMap_Auto1C2E335264ED163AC1C5DEAA6A990FF3D.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Saved/Autosaves/Game/My/TestMap/MatTestMap_Auto1.umap'
+[2016.01.28-09.16.54:475][864]LogSavePackage: Total save time: 218.121555ms
+[2016.01.28-09.16.54:475][864]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Saved/Autosaves/Game/My/TestMap/MatTestMap_Auto1.umap
+[2016.01.28-09.16.54:478][864]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My/TestMap/MatTestMap' took 0.238
+[2016.01.28-09.16.54:478][864]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.238
+[2016.01.28-09.16.54:482][864]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud] ([1] browsable assets)...
+[2016.01.28-09.16.54:496][864]OBJ SavePackage:     Rendered thumbnail for [Material /Game/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.Mat_BlizzardCloud]
+[2016.01.28-09.16.54:496][864]OBJ SavePackage: Finished generating thumbnails for package [/Game/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud]
+[2016.01.28-09.16.54:535][864]LogSavePackage: Save=14.317412ms
+[2016.01.28-09.16.54:535][864]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_BlizzardCloud_Auto11EA4F43848E1B69B468FDFA283022E3B.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Saved/Autosaves/Game/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud_Auto1.uasset'
+[2016.01.28-09.16.54:538][864]LogSavePackage: Total save time: 39.498854ms
+[2016.01.28-09.16.54:538][864]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Saved/Autosaves/Game/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud_Auto1.uasset
+[2016.01.28-09.16.54:538][864]LogFileHelpers: Auto-saving content packages took 0.059
+[2016.01.28-09.16.56:575][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/TestMap/MatTestMap" FILE="E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.28-09.16.56:782][  9]LogSavePackage: Save=174.457916ms
+[2016.01.28-09.16.56:782][  9]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/MatTestMap5DAD113B42280D99BE31BEA31D3EF65F.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap'
+[2016.01.28-09.16.56:787][  9]LogSavePackage: Total save time: 199.717302ms
+[2016.01.28-09.16.56:787][  9]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap
+[2016.01.28-09.16.56:819][  9]LogFileHelpers: Saving map 'MatTestMap' took 0.306
+[2016.01.28-09.16.56:850][  9]LogSavePackage: Save=6.102677ms
+[2016.01.28-09.16.56:850][  9]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_BlizzardCloud9DF4539B4E58E6FF60C0768F5E4BAE8D.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset'
+[2016.01.28-09.16.56:854][  9]LogSavePackage: Total save time: 29.302601ms
+[2016.01.28-09.16.56:854][  9]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MatCollection/Environment/Blizzard/MatBlizzardCloud/Mat_BlizzardCloud.uasset
+[2016.01.28-09.16.57:947][ 94]LogCascade: Quitting Cascade. FXSystem=0x000000000FC7A200
+[2016.01.28-09.16.59:584][256]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FC7A200
+[2016.01.28-09.16.59:585][256]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000345EB920
+[2016.01.28-09.16.59:673][256]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000009DAE0C20
+[2016.01.28-09.16.59:861][257]Cmd: QUIT_EDITOR
+[2016.01.28-09.16.59:984][257]LogExit: Preparing to exit.
+[2016.01.28-09.17.00:541][257]LogExit: Editor shut down
+[2016.01.28-09.17.00:542][257]LogExit: Transaction tracking system shut down
+[2016.01.28-09.17.00:544][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A3FB6A0
+[2016.01.28-09.17.00:545][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031D2B880
+[2016.01.28-09.17.00:545][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031E04B80
+[2016.01.28-09.17.00:545][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031E049A0
+[2016.01.28-09.17.00:545][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031E04540
+[2016.01.28-09.17.00:701][257]LogExit: Object subsystem successfully closed.
+[2016.01.28-09.17.00:712][257]LogD3D11RHI: Shutdown
+[2016.01.28-09.17.00:712][257]LogD3D11RHI: CleanupD3DDevice
+[2016.01.28-09.17.00:778][257]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.28-09.17.00:789][257]LogModuleManager: Shutting down and abandoning module MaterialEditor (203)
+[2016.01.28-09.17.00:789][257]LogModuleManager: Shutting down and abandoning module TextureEditor (202)
+[2016.01.28-09.17.00:789][257]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2016.01.28-09.17.00:789][257]LogModuleManager: Shutting down and abandoning module DistCurveEditor (200)
+[2016.01.28-09.17.00:789][257]LogModuleManager: Shutting down and abandoning module Cascade (199)
+[2016.01.28-09.17.00:789][257]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.01.28-09.17.00:789][257]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.01.28-09.17.00:789][257]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.01.28-09.17.00:789][257]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.01.28-09.17.00:789][257]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.01.28-09.17.00:793][257]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.01.28-09.17.00:793][257]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.01.28-09.17.00:794][257]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.01.28-09.17.01:677][257]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.01.28-09.17.01:678][257]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.01.28-09.17.01:678][257]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.01.28-09.17.01:678][257]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.01.28-09.17.01:678][257]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.01.28-09.17.01:678][257]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.01.28-09.17.01:678][257]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.01.28-09.17.01:678][257]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.01.28-09.17.01:678][257]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.01.28-09.17.01:678][257]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.01.28-09.17.01:678][257]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.01.28-09.17.01:678][257]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.01.28-09.17.01:679][257]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.01.28-09.17.01:679][257]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.01.28-09.17.01:679][257]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.01.28-09.17.01:679][257]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.01.28-09.17.01:679][257]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.01.28-09.17.01:679][257]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.01.28-09.17.01:679][257]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.01.28-09.17.01:683][257]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.01.28-09.17.01:683][257]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.01.28-09.17.01:683][257]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.01.28-09.17.01:683][257]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.01.28-09.17.01:683][257]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.01.28-09.17.01:683][257]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.01.28-09.17.01:684][257]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.01.28-09.17.01:684][257]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.01.28-09.17.01:684][257]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.01.28-09.17.01:684][257]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.01.28-09.17.01:684][257]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.01.28-09.17.01:684][257]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.01.28-09.17.01:684][257]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.01.28-09.17.01:684][257]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.01.28-09.17.01:894][257]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.01.28-09.17.01:895][257]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.28-09.17.01:895][257]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.28-09.17.01:895][257]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.28-09.17.01:895][257]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.28-09.17.01:895][257]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.01.28-09.17.01:895][257]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.01.28-09.17.01:895][257]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.28-09.17.01:922][257]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.28-09.17.01:922][257]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.28-09.17.01:922][257]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.28-09.17.01:922][257]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.28-09.17.01:922][257]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.28-09.17.01:922][257]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.28-09.17.01:922][257]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.28-09.17.01:922][257]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.28-09.17.01:923][257]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.28-09.17.01:923][257]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.28-09.17.01:923][257]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.28-09.17.01:923][257]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.28-09.17.01:923][257]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.28-09.17.01:923][257]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.28-09.17.01:923][257]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.28-09.17.01:923][257]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.28-09.17.01:923][257]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.28-09.17.01:923][257]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.28-09.17.01:923][257]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.28-09.17.01:923][257]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.28-09.17.01:923][257]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.28-09.17.01:923][257]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.28-09.17.01:924][257]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.28-09.17.01:924][257]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.28-09.17.01:926][257]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.01.28-09.17.01:928][257]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.01.28-09.17.01:995][257]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.01.28-09.17.01:995][257]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.01.28-09.17.01:996][257]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.01.28-09.17.02:096][257]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.01.28-09.17.02:096][257]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.01.28-09.17.02:096][257]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.01.28-09.17.02:107][257]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.01.28-09.17.02:107][257]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.01.28-09.17.02:108][257]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.01.28-09.17.02:108][257]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.01.28-09.17.02:108][257]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.01.28-09.17.02:108][257]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.01.28-09.17.02:108][257]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.01.28-09.17.02:108][257]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.01.28-09.17.02:108][257]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.01.28-09.17.02:109][257]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.01.28-09.17.02:109][257]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.01.28-09.17.02:109][257]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.01.28-09.17.02:109][257]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.01.28-09.17.02:109][257]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.01.28-09.17.02:109][257]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.01.28-09.17.02:109][257]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.01.28-09.17.02:114][257]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.01.28-09.17.02:114][257]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.01.28-09.17.02:115][257]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.01.28-09.17.02:115][257]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.01.28-09.17.02:115][257]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.01.28-09.17.02:115][257]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.01.28-09.17.02:115][257]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.01.28-09.17.02:115][257]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.01.28-09.17.02:115][257]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.01.28-09.17.02:115][257]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.01.28-09.17.02:181][257]LogDerivedDataCache: Shutdown
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.01.28-09.17.02:181][257]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.01.28-09.17.02:182][257]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.01.28-09.17.02:182][257]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.01.28-09.17.02:182][257]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.01.28-09.17.02:182][257]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.01.28-09.17.02:182][257]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.01.28-09.17.02:182][257]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.01.28-09.17.02:182][257]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.01.28-09.17.02:182][257]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.01.28-09.17.02:182][257]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.01.28-09.17.02:182][257]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.01.28-09.17.02:182][257]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.01.28-09.17.02:182][257]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.01.28-09.17.02:182][257]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.01.28-09.17.02:182][257]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.01.28-09.17.02:183][257]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.01.28-09.17.02:183][257]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.01.28-09.17.03:184][257]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.01.28-09.17.03:184][257]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.01.28-09.17.03:184][257]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.28-09.17.03:184][257]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.28-09.17.03:184][257]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.28-09.17.03:184][257]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.28-09.17.03:184][257]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.28-09.17.03:190][257]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.28-09.17.03:190][257]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.28-09.17.03:190][257]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.28-09.17.03:190][257]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.28-09.17.03:190][257]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.28-09.17.03:190][257]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.28-09.17.03:190][257]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.28-09.17.03:190][257]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.28-09.17.03:190][257]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.28-09.17.03:190][257]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.28-09.17.03:193][257]LogExit: Exiting.
+[2016.01.28-09.17.03:227][257]Log file closed, 01/28/16 17:17:03
