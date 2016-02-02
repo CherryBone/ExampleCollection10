@@ -1,0 +1,890 @@
+﻿[2016.02.01-02.22.51:421][  0]Log file open, 02/01/16 10:22:51
+[2016.02.01-02.22.51:421][  0]LogInit:Display: Running engine for game: ExampleCollection10
+[2016.02.01-02.22.51:421][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.01-02.22.51:421][  0]LogInit:Display: RandInit(-1386906491) SRandInit(-1386906490).
+[2016.02.01-02.22.51:421][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.01-02.22.51:421][  0]LogStats: Stats thread started at 0.066500
+[2016.02.01-02.22.51:421][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.02.01-02.22.51:421][  0]LogInit: API Version: 2758231
+[2016.02.01-02.22.51:421][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2016.02.01-02.22.51:421][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.01-02.22.51:421][  0]LogInit: Build Configuration: Development
+[2016.02.01-02.22.51:421][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.01-02.22.51:421][  0]LogInit: Command line:  
+[2016.02.01-02.22.51:421][  0]LogInit: Base directory: D:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.01-02.22.51:421][  0]LogInit: Rocket: 1
+[2016.02.01-02.22.51:430][  0]LogInit: Using libcurl 7.41.0
+[2016.02.01-02.22.51:430][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.01-02.22.51:430][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.01-02.22.51:430][  0]LogInit:  - other features:
+[2016.02.01-02.22.51:430][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.01-02.22.51:430][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.01-02.22.51:430][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.01-02.22.51:430][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.01-02.22.51:430][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.01-02.22.51:430][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.01-02.22.51:430][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.01-02.22.51:430][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.01-02.22.51:430][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.01-02.22.51:430][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.01-02.22.51:436][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.01-02.22.51:441][  0]LogInit: Object subsystem initialized
+[2016.02.01-02.22.51:442][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.01-02.22.51:442][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.01-02.22.51:455][  0]LogInit: Computer: PLAN-CHENXINGHU
+[2016.02.01-02.22.51:455][  0]LogInit: User: chenxinghui
+[2016.02.01-02.22.51:455][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.01-02.22.51:455][  0]LogInit: High frequency timer resolution =3.117832 MHz
+[2016.02.01-02.22.51:455][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.02.01-02.22.51:455][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.01-02.22.51:455][  0]LogMemory: Process Physical Memory: 57.12 MB used, 57.12 MB peak
+[2016.02.01-02.22.51:455][  0]LogMemory: Process Virtual Memory: 57.69 MB used, 57.69 MB peak
+[2016.02.01-02.22.51:455][  0]LogMemory: Physical Memory: 2428.38 MB used, 8130.04 MB total
+[2016.02.01-02.22.51:455][  0]LogMemory: Virtual Memory: 350.46 MB used, 8388608.00 MB total
+[2016.02.01-02.22.51:974][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2016.02.01-02.22.51:974][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2016.02.01-02.22.51:974][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.01-02.22.51:981][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.01-02.22.51:982][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.01-02.22.51:990][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.01-02.22.52:004][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (E:/Unreal Work Space/ExampleCollection10/Intermediate/Shaders/WorkingDirectory/384/).
+[2016.02.01-02.22.52:004][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/CHENXI~1/AppData/Local/Temp/UnrealShaderWorkingDir/FB50F89B45A32EBB175AB5B92E028F87/'.
+[2016.02.01-02.22.52:004][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.01-02.22.54:230][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.01-02.22.54:245][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.01-02.22.54:252][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.01-02.22.54:259][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.01-02.22.54:266][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.01-02.22.54:282][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.01-02.22.54:285][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.01-02.22.54:288][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.01-02.22.54:290][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.01-02.22.54:293][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.01-02.22.54:295][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.01-02.22.54:301][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.01-02.22.54:301][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.01-02.22.54:302][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.01-02.22.54:356][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.01-02.22.54:361][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.01-02.22.54:367][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.01-02.22.54:424][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.01-02.22.54:424][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.01-02.22.54:999][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.01-02.22.55:455][  0]LogDerivedDataCache: Loaded boot cache 0.46s 41MB C:/Users/chenxinghui/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.01-02.22.55:455][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/chenxinghui/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.01-02.22.55:455][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal Work Space/ExampleCollection10/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.01-02.22.55:455][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.01-02.22.55:455][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal Work Space/ExampleCollection10/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.01-02.22.55:455][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.01-02.22.55:589][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.01-02.22.55:600][  0]LogDerivedDataCache: Using Local data cache path C:/Users/chenxinghui/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.01-02.23.02:339][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.01-02.23.02:340][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.01-02.23.02:380][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.01-02.23.02:380][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.01-02.23.02:784][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.01-02.23.11:788][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.01-02.23.12:256][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2016.02.01-02.23.13:376][  0]SourceControl: Info Source control is disabled
+[2016.02.01-02.23.13:377][  0]SourceControl: Info Source control is disabled
+[2016.02.01-02.23.13:462][  0]SourceControl: Info Source control is disabled
+[2016.02.01-02.23.13:526][  0]SourceControl: Info Source control is disabled
+[2016.02.01-02.23.14:865][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.02.01-02.23.14:865][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.02.01-02.23.14:979][  0]LogEngine: Initializing Engine...
+[2016.02.01-02.23.14:980][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.01-02.23.15:038][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.01-02.23.15:168][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.01-02.23.15:190][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.01-02.23.15:450][  0]LogInit: FAudioDevice initialized.
+[2016.02.01-02.23.15:486][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/chenxinghui/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.01-02.23.15:492][  0]LogInit: Texture streaming: Enabled
+[2016.02.01-02.23.15:512][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.01-02.23.15:512][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.02.01-02.23.15:513][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId fcc8beb743eb3f315b3205bc8f91fbb8|ecc15fb7c1f4439e807eef072eca5f98|c014cd18-b694-4710-a8b7-958888126c98
+[2016.02.01-02.23.15:513][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.01-02.23.15:597][  0]LogInit: Transaction tracking system initialized
+[2016.02.01-02.23.15:948][  0]BlueprintLog: New page: Editor Load
+[2016.02.01-02.23.18:581][  0]LocalizationService: Info Localization service is disabled
+[2016.02.01-02.23.19:416][  0]LogConsoleResponse:Display: 
+[2016.02.01-02.23.22:192][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.01-02.23.23:284][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Work Space/ExampleCollection10/Content/' took 0.02s
+[2016.02.01-02.23.23:384][  0]SourceControl: Info Source control is disabled
+[2016.02.01-02.23.23:384][  0]Cmd: MAP LOAD FILE="E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.01-02.23.23:622][  0]LightingResults: New page: Lighting Build
+[2016.02.01-02.23.23:625][  0]MapCheck: New page: Map Check
+[2016.02.01-02.23.23:625][  0]LightingResults: New page: Lighting Build
+[2016.02.01-02.23.23:636][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000221DAAC0
+[2016.02.01-02.23.40:351][  0]LogAIModule: Creating AISystem for world MatTestMap
+[2016.02.01-02.23.40:573][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.01-02.23.40:574][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.01-02.23.40:649][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.493ms to complete.
+[2016.02.01-02.23.40:649][  0]LogFileHelpers: Loading map 'MatTestMap' took 17.266
+[2016.02.01-02.23.41:081][  0]LogCollectionManager: Loaded 0 collections in 0.004608 seconds
+[2016.02.01-02.23.41:151][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Work Space/ExampleCollection10/Saved/Collections/' took 0.01s
+[2016.02.01-02.23.41:151][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Work Space/ExampleCollection10/Content/Developers/chenxinghui/Collections/' took 0.01s
+[2016.02.01-02.23.41:151][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Work Space/ExampleCollection10/Content/Collections/' took 0.01s
+[2016.02.01-02.23.41:151][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.02.01-02.23.41:166][  0]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 1893 classes and 338 folders.
+[2016.02.01-02.23.41:176][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.02.01-02.23.42:033][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.02.01-02.23.42:043][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.02.01-02.23.42:220][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.01-02.23.42:223][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.01-02.23.42:244][  0]LogLoad: Full Startup: 51.84 seconds (BP compile: 0.18 seconds)
+[2016.02.01-02.23.42:588][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.01-02.23.42:819][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.01-02.23.43:053][  0]LogRenderer: Reallocating scene render targets to support 872x552 (Frame:2).
+[2016.02.01-02.23.45:163][  7]LogAssetRegistry: Asset discovery search completed in 32.9189 seconds
+[2016.02.01-02.23.45:163][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.01-02.23.45:163][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2016.02.01-02.23.58:577][282]LogEditorViewport: Clicking on Actor (LMB): 3D_Widget_C (3D_Widget)
+[2016.02.01-02.23.59:433][361]Cmd: DELETE
+[2016.02.01-02.23.59:433][361]Cmd: ACTOR DELETE
+[2016.02.01-02.23.59:611][361]LogEditorActor: Deleted Actor: 3D_Widget_C
+[2016.02.01-02.23.59:651][361]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2016.02.01-02.24.00:857][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/TestMap/MatTestMap" FILE="E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.01-02.24.01:281][492]LogSavePackage: Save=336.126190ms
+[2016.02.01-02.24.01:281][492]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/MatTestMapBD09F01541215FE1BFB19F9B3D40C9BB.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap'
+[2016.02.01-02.24.01:382][492]LogSavePackage: Total save time: 499.168333ms
+[2016.02.01-02.24.01:382][492]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap
+[2016.02.01-02.24.01:446][492]LogFileHelpers: Saving map 'MatTestMap' took 0.644
+[2016.02.01-02.24.26:352][ 84]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/chenxinghui/Desktop/MayaOutput/AngleMesh/MyAngle.fbx)
+[2016.02.01-02.24.26:552][ 84]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.02.01-02.24.26:552][ 84]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.02.01-02.24.26:552][ 84]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.02.01-02.24.26:552][ 84]LogFbx: ItemName: Geometry, ItemCount : 3
+[2016.02.01-02.24.26:552][ 84]LogFbx: ItemName: Material, ItemCount : 2
+[2016.02.01-02.24.26:552][ 84]LogFbx: ItemName: Texture, ItemCount : 7
+[2016.02.01-02.24.26:552][ 84]LogFbx: ItemName: Model, ItemCount : 3
+[2016.02.01-02.24.26:552][ 84]LogFbx: ItemName: AnimationCurveNode, ItemCount : 24
+[2016.02.01-02.24.26:552][ 84]LogFbx: ItemName: Video, ItemCount : 7
+[2016.02.01-02.24.26:691][ 84]LogFbx: Loading FBX Scene from C:/Users/chenxinghui/Desktop/MayaOutput/AngleMesh/MyAngle.fbx
+[2016.02.01-02.24.26:916][ 84]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.01-02.24.33:080][ 84]LogFbx: Loading FBX Scene from C:/Users/chenxinghui/Desktop/MayaOutput/AngleMesh/MyAngle.fbx
+[2016.02.01-02.24.33:227][ 84]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.01-02.24.34:363][ 84]LogStaticMesh: Building static mesh MyAngle...
+[2016.02.01-02.24.34:601][ 84]LogStaticMesh: Built static mesh [0.257674.2s] /Game/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle.MyAngle
+[2016.02.01-02.24.36:317][194]LogRenderer: Reallocating scene render targets to support 956x932 (Frame:2017).
+[2016.02.01-02.25.00:581][358]LogEditorFactories: Performing atomic reimport of [C:/Users/chenxinghui/Desktop/MayaOutput/AngleMesh/MyAngle.fbx]
+[2016.02.01-02.25.00:719][358]LogFbx: Loading FBX Scene from C:/Users/chenxinghui/Desktop/MayaOutput/AngleMesh/MyAngle.fbx
+[2016.02.01-02.25.00:851][358]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.01-02.25.01:693][358]LogStaticMesh: Building static mesh MyAngle...
+[2016.02.01-02.25.01:879][358]LogStaticMesh: Built static mesh [0.186863.2s] /Game/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle.MyAngle
+[2016.02.01-02.25.01:985][358]LogEditorFactories: -- imported successfully
+[2016.02.01-02.25.03:983][519]LogSavePackage: Save=12.097188ms
+[2016.02.01-02.25.03:983][519]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/MyAngle41B7344E4D2A53E295D62B8F74059249.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle.uasset'
+[2016.02.01-02.25.03:984][519]LogSavePackage: Total save time: 13.814725ms
+[2016.02.01-02.25.03:984][519]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle.uasset
+[2016.02.01-02.25.31:135][628]LogSavePackage: Save=31.932125ms
+[2016.02.01-02.25.31:135][628]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_MyAngle39EF15804460690720403F9396B3A7D9.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngle.uasset'
+[2016.02.01-02.25.31:137][628]LogSavePackage: Total save time: 33.769298ms
+[2016.02.01-02.25.31:137][628]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngle.uasset
+[2016.02.01-02.25.45:387][793]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/Heroes/10e74fa0.jpg)
+[2016.02.01-02.25.45:467][793]LogTexture:Display: Building textures: 10e74fa0 (AutoDXT)
+[2016.02.01-02.25.45:679][793]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/Heroes/54bc3662.jpg)
+[2016.02.01-02.25.45:778][793]LogTexture:Display: Building textures: 54bc3662 (BC5)
+[2016.02.01-02.25.45:825][793]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/Heroes/510b66d8.jpg)
+[2016.02.01-02.25.45:873][793]LogTexture:Display: Building textures: 510b66d8 (AutoDXT)
+[2016.02.01-02.25.46:669][793]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/Heroes/616d05c4.jpg)
+[2016.02.01-02.25.46:718][793]LogTexture:Display: Building textures: 616d05c4 (AutoDXT)
+[2016.02.01-02.25.46:913][793]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/Heroes/659fab3a.jpg)
+[2016.02.01-02.25.46:921][793]LogTexture:Display: Building textures: 659fab3a (AutoDXT)
+[2016.02.01-02.25.46:993][793]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/Heroes/4608a9fc.jpg)
+[2016.02.01-02.25.47:002][793]LogTexture:Display: Building textures: 4608a9fc (AutoDXT)
+[2016.02.01-02.25.47:210][793]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/Heroes/21547df7.jpg)
+[2016.02.01-02.25.47:228][793]LogTexture:Display: Building textures: 21547df7 (AutoDXT)
+[2016.02.01-02.25.47:257][793]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/Heroes/d91b2793.jpg)
+[2016.02.01-02.25.47:281][793]LogTexture:Display: Building textures: d91b2793 (BC5)
+[2016.02.01-02.26.04:678][262]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.02.01-02.26.23:060][130]LogSavePackage: Save=24.994291ms
+[2016.02.01-02.26.23:060][130]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Angle_DDC1AA81B4A001D503F0B50A484141B3E.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Angle_D.uasset'
+[2016.02.01-02.26.23:061][130]LogSavePackage: Total save time: 26.677832ms
+[2016.02.01-02.26.23:061][130]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Angle_D.uasset
+[2016.02.01-02.26.30:852][876]LogSavePackage: Save=26.471600ms
+[2016.02.01-02.26.30:852][876]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Angle_A2D3CEACD46C78CCEAB8B48878114720C.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Angle_A.uasset'
+[2016.02.01-02.26.30:866][876]LogSavePackage: Total save time: 40.338609ms
+[2016.02.01-02.26.30:866][876]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Angle_A.uasset
+[2016.02.01-02.26.54:170][130]LogSavePackage: Save=41.138523ms
+[2016.02.01-02.26.54:170][130]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/AngleWing_DDF6F354345625530AA6B70862C00B738.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AngleWing_D.uasset'
+[2016.02.01-02.26.54:172][130]LogSavePackage: Total save time: 43.929882ms
+[2016.02.01-02.26.54:172][130]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AngleWing_D.uasset
+[2016.02.01-02.26.57:750][458]LogSavePackage: Save=46.099342ms
+[2016.02.01-02.26.57:750][458]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/AngleWing_ACF4FE5F94E44C848E43666A796650D83.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AngleWing_A.uasset'
+[2016.02.01-02.26.57:756][458]LogSavePackage: Total save time: 52.214488ms
+[2016.02.01-02.26.57:756][458]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AngleWing_A.uasset
+[2016.02.01-02.27.03:692][998]LogSavePackage: Save=103.506218ms
+[2016.02.01-02.27.03:692][998]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Angle_NF46899C9495E50E18E86A3BC0CCF5352.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Angle_N.uasset'
+[2016.02.01-02.27.03:693][998]LogSavePackage: Total save time: 105.652262ms
+[2016.02.01-02.27.03:693][998]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Angle_N.uasset
+[2016.02.01-02.27.08:891][474]LogSavePackage: Save=53.711361ms
+[2016.02.01-02.27.08:891][474]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Angle_D3BFB270844DE22BE9DA5519AE95D0D36.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Angle_D.uasset'
+[2016.02.01-02.27.08:893][474]LogSavePackage: Total save time: 55.417996ms
+[2016.02.01-02.27.08:893][474]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Angle_D.uasset
+[2016.02.01-02.27.16:471][170]LogSavePackage: Save=90.708221ms
+[2016.02.01-02.27.16:471][170]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/AngleWing_NE472CD68421558C67C155C8D3F102DC7.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AngleWing_N.uasset'
+[2016.02.01-02.27.16:474][170]LogSavePackage: Total save time: 94.087172ms
+[2016.02.01-02.27.16:474][170]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AngleWing_N.uasset
+[2016.02.01-02.27.55:990][994]LogSavePackage: Save=61.813786ms
+[2016.02.01-02.27.55:990][994]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/AngleBall_D525FE21E4E32A6209846FFA3EF649BE8.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AngleBall_D.uasset'
+[2016.02.01-02.27.55:991][994]LogSavePackage: Total save time: 63.516572ms
+[2016.02.01-02.27.55:991][994]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AngleBall_D.uasset
+[2016.02.01-02.28.11:167][446]LogSavePackage: Save=37.044971ms
+[2016.02.01-02.28.11:167][446]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/AngleCloth_D18691B88475F976FC03C6FB6A347DB20.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AngleCloth_D.uasset'
+[2016.02.01-02.28.11:168][446]LogSavePackage: Total save time: 38.797472ms
+[2016.02.01-02.28.11:169][446]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AngleCloth_D.uasset
+[2016.02.01-02.28.23:381][579]LogSavePackage: Save=200.154144ms
+[2016.02.01-02.28.23:381][579]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/AnlgeBody_DF316F21143E1AD8A22AE40B0FDB881C7.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AnlgeBody_D.uasset'
+[2016.02.01-02.28.23:382][579]LogSavePackage: Total save time: 202.017941ms
+[2016.02.01-02.28.23:383][579]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AnlgeBody_D.uasset
+[2016.02.01-02.28.29:932][200]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.28.30:050][200]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.28.30:053][200]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.28.31:260][264]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.28.31:260][264]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.28.31:260][264]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.28.35:083][646]LogTexture:Display: Building textures: 21547df7 (AutoDXT)
+[2016.02.01-02.28.37:871][910]LogSavePackage: Save=30.595619ms
+[2016.02.01-02.28.37:871][910]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/21547df7C2E6629048543730A4D5B99E9F5D5EC2.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/21547df7.uasset'
+[2016.02.01-02.28.37:875][910]LogSavePackage: Total save time: 34.522384ms
+[2016.02.01-02.28.37:875][910]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/21547df7.uasset
+[2016.02.01-02.28.38:337][947]LogSavePackage: Save=5.585291ms
+[2016.02.01-02.28.38:337][947]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_MyAngleFCB6C45B409081932C830388D4AA3F55.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/Mat_MyAngle.uasset'
+[2016.02.01-02.28.38:340][947]LogSavePackage: Total save time: 9.297166ms
+[2016.02.01-02.28.38:340][947]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/Mat_MyAngle.uasset
+[2016.02.01-02.28.38:357][947]LogSavePackage: Save=5.298874ms
+[2016.02.01-02.28.38:357][947]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/10e74fa083BB6C854ABB50ED7325A1A8DFA93C29.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/10e74fa0.uasset'
+[2016.02.01-02.28.38:359][947]LogSavePackage: Total save time: 8.213401ms
+[2016.02.01-02.28.38:359][947]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/10e74fa0.uasset
+[2016.02.01-02.28.38:371][947]LogSavePackage: Save=3.302936ms
+[2016.02.01-02.28.38:371][947]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/54bc3662156E3BB1495ED6D1CAB87E903BA7856F.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/54bc3662.uasset'
+[2016.02.01-02.28.38:373][947]LogSavePackage: Total save time: 5.697552ms
+[2016.02.01-02.28.38:373][947]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/54bc3662.uasset
+[2016.02.01-02.28.38:385][947]LogSavePackage: Save=3.358744ms
+[2016.02.01-02.28.38:385][947]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/510b66d8F2A9CDC24175FEF49FC9F29F89028370.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/510b66d8.uasset'
+[2016.02.01-02.28.38:387][947]LogSavePackage: Total save time: 5.726416ms
+[2016.02.01-02.28.38:387][947]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/510b66d8.uasset
+[2016.02.01-02.28.38:396][947]LogSavePackage: Save=2.439516ms
+[2016.02.01-02.28.38:396][947]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/616d05c49B3C0CFC4492B37DD7799F8DDF166197.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/616d05c4.uasset'
+[2016.02.01-02.28.38:397][947]LogSavePackage: Total save time: 4.135244ms
+[2016.02.01-02.28.38:397][947]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/616d05c4.uasset
+[2016.02.01-02.28.38:407][947]LogSavePackage: Save=2.442723ms
+[2016.02.01-02.28.38:407][947]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/659fab3aC0D1A07344D4B1FC22065FA6F7E1ABC7.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/659fab3a.uasset'
+[2016.02.01-02.28.38:408][947]LogSavePackage: Total save time: 4.149355ms
+[2016.02.01-02.28.38:408][947]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/659fab3a.uasset
+[2016.02.01-02.28.38:416][947]LogSavePackage: Save=2.409367ms
+[2016.02.01-02.28.38:416][947]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/4608a9fcDF250126464A9C3F8C863CA042E41AC4.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/4608a9fc.uasset'
+[2016.02.01-02.28.38:417][947]LogSavePackage: Total save time: 4.090663ms
+[2016.02.01-02.28.38:417][947]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/4608a9fc.uasset
+[2016.02.01-02.28.38:425][947]LogSavePackage: Save=2.463571ms
+[2016.02.01-02.28.38:425][947]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/d91b2793BF33D75B4DBF6663B6E633898F71BAB7.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/d91b2793.uasset'
+[2016.02.01-02.28.38:426][947]LogSavePackage: Total save time: 4.263859ms
+[2016.02.01-02.28.38:426][947]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/d91b2793.uasset
+[2016.02.01-02.28.42:271][339]LogTexture:Display: Building textures: AngleBall_D (AutoDXT)
+[2016.02.01-02.28.44:159][500]LogSavePackage: Save=41.495823ms
+[2016.02.01-02.28.44:159][500]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/AngleBall_D814B38F74018F1ED0D44CC9D7EC82D1B.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AngleBall_D.uasset'
+[2016.02.01-02.28.44:161][500]LogSavePackage: Total save time: 59.716176ms
+[2016.02.01-02.28.44:161][500]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AngleBall_D.uasset
+[2016.02.01-02.28.46:471][724]LogTexture:Display: Building textures: AnlgeBody_D (AutoDXT)
+[2016.02.01-02.28.48:877][873]LogSavePackage: Save=35.881023ms
+[2016.02.01-02.28.48:877][873]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/AnlgeBody_DCAB107A2476CC5E7BE2E01B28352617B.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AnlgeBody_D.uasset'
+[2016.02.01-02.28.48:879][873]LogSavePackage: Total save time: 55.896211ms
+[2016.02.01-02.28.48:879][873]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AnlgeBody_D.uasset
+[2016.02.01-02.28.57:997][816]LogTexture:Display: Building textures: AngleCloth_D (AutoDXT)
+[2016.02.01-02.28.59:779][969]LogSavePackage: Save=25.664309ms
+[2016.02.01-02.28.59:779][969]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/AngleCloth_D5626B34C4D2DCAFBAF92049B5DCBD8EA.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AngleCloth_D.uasset'
+[2016.02.01-02.28.59:781][969]LogSavePackage: Total save time: 57.095766ms
+[2016.02.01-02.28.59:781][969]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AngleCloth_D.uasset
+[2016.02.01-02.29.08:309][849]LogTexture:Display: Building textures: AngleWing_D (AutoDXT)
+[2016.02.01-02.29.10:159][ 16]LogSavePackage: Save=36.278091ms
+[2016.02.01-02.29.10:159][ 16]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/AngleWing_D456B057D40641F677F30428715AE6CCA.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AngleWing_D.uasset'
+[2016.02.01-02.29.10:161][ 16]LogSavePackage: Total save time: 76.207761ms
+[2016.02.01-02.29.10:161][ 16]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/AngleWing_D.uasset
+[2016.02.01-02.29.21:214][  8]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014538860
+[2016.02.01-02.29.21:386][  8]LogSavePackage: Save=28.265795ms
+[2016.02.01-02.29.21:386][  8]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Angle_NE75C80E84515ABF208422187FA5FC7FE.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Angle_N.uasset'
+[2016.02.01-02.29.21:388][  8]LogSavePackage: Total save time: 77.326488ms
+[2016.02.01-02.29.21:388][  8]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Angle_N.uasset
+[2016.02.01-02.29.38:813][723]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.29.38:817][723]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.29.38:841][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.01-02.29.38:888][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.01-02.29.38:897][723]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.29.38:900][723]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.29.38:924][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.02.01-02.29.38:979][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.01-02.29.38:982][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.02.01-02.29.38:991][723]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.29.38:994][723]LogMaterial: 0.000024 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.29.38:995][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.02.01-02.29.39:052][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.01-02.29.39:054][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.02.01-02.29.39:057][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.02.01-02.29.39:079][723]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.29.39:103][723]LogMaterial: 0.019169 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.29.39:104][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.02.01-02.29.39:152][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.01-02.29.39:189][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.02.01-02.29.39:192][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.02.01-02.29.39:211][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.02.01-02.29.39:246][723]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.29.39:250][723]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.29.39:266][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.02.01-02.29.39:351][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.01-02.29.39:354][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.02.01-02.29.39:368][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.02.01-02.29.39:380][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.02.01-02.29.39:392][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.02.01-02.29.39:402][723]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.29.39:406][723]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.29.39:407][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.02.01-02.29.39:503][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.01-02.29.39:506][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.02.01-02.29.39:508][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.02.01-02.29.39:543][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.02.01-02.29.39:546][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.02.01-02.29.39:549][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.02.01-02.29.39:559][723]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.29.39:562][723]LogMaterial: 0.000023 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.29.39:563][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.02.01-02.29.39:628][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.01-02.29.39:631][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.02.01-02.29.39:633][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.02.01-02.29.39:636][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.02.01-02.29.39:639][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.02.01-02.29.39:641][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.02.01-02.29.39:645][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.02.01-02.29.40:464][767]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.29.40:464][767]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.29.40:464][767]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.32.33:439][206]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/angel.FBX)
+[2016.02.01-02.32.33:449][206]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.02.01-02.32.33:449][206]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.02.01-02.32.33:449][206]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.02.01-02.32.33:449][206]LogFbx: ItemName: Model, ItemCount : 3
+[2016.02.01-02.32.33:449][206]LogFbx: ItemName: Geometry, ItemCount : 3
+[2016.02.01-02.32.33:449][206]LogFbx: ItemName: Material, ItemCount : 2
+[2016.02.01-02.32.33:449][206]LogFbx: ItemName: Texture, ItemCount : 9
+[2016.02.01-02.32.33:449][206]LogFbx: ItemName: Video, ItemCount : 9
+[2016.02.01-02.32.33:516][206]LogFbx: Loading FBX Scene from C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/angel.FBX
+[2016.02.01-02.32.33:653][206]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.01-02.32.57:559][206]LogFbx: Loading FBX Scene from C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/angel.FBX
+[2016.02.01-02.32.57:694][206]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.01-02.32.57:782][206]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/037_-_Default'
+[2016.02.01-02.32.57:782][206]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/037_-_Default'
+[2016.02.01-02.32.57:799][206]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/510b66d8'
+[2016.02.01-02.32.57:799][206]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/510b66d8'
+[2016.02.01-02.32.57:799][206]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/My/ExampleCollection/MeshCollection/Human/Angle/510b66d8.510b66d8'
+[2016.02.01-02.32.57:799][206]LogStreaming:Warning: Failed to read file 'C:\Users\dingzenan\Desktop\模型\其他\Heroes\510b66d8.jpg' error.
+[2016.02.01-02.32.57:799][206]LogStreaming:Warning: Failed to read file 'C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/模型\其他\Heroes\510b66d8.jpg' error.
+[2016.02.01-02.32.57:799][206]LogStreaming:Warning: Failed to read file 'C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/510b66d8.jpg' error.
+[2016.02.01-02.32.57:799][206]LogFbxMaterialImport:Warning: Unable to find TEXTure file 510b66d8.jpg. Tried:
+ - C:\Users\dingzenan\Desktop\模型\其他\Heroes\510b66d8.jpg
+ - C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/模型\其他\Heroes\510b66d8.jpg
+ - C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/510b66d8.jpg
+[2016.02.01-02.32.57:805][206]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/4608a9fc'
+[2016.02.01-02.32.57:806][206]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/4608a9fc'
+[2016.02.01-02.32.57:806][206]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/My/ExampleCollection/MeshCollection/Human/Angle/4608a9fc.4608a9fc'
+[2016.02.01-02.32.57:806][206]LogStreaming:Warning: Failed to read file 'C:\Users\dingzenan\Desktop\模型\其他\Heroes\4608a9fc.jpg' error.
+[2016.02.01-02.32.57:806][206]LogStreaming:Warning: Failed to read file 'C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/模型\其他\Heroes\4608a9fc.jpg' error.
+[2016.02.01-02.32.57:806][206]LogStreaming:Warning: Failed to read file 'C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/4608a9fc.jpg' error.
+[2016.02.01-02.32.57:806][206]LogFbxMaterialImport:Warning: Unable to find TEXTure file 4608a9fc.jpg. Tried:
+ - C:\Users\dingzenan\Desktop\模型\其他\Heroes\4608a9fc.jpg
+ - C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/模型\其他\Heroes\4608a9fc.jpg
+ - C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/4608a9fc.jpg
+[2016.02.01-02.32.57:806][206]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/d91b2793'
+[2016.02.01-02.32.57:806][206]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/d91b2793'
+[2016.02.01-02.32.57:806][206]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/My/ExampleCollection/MeshCollection/Human/Angle/d91b2793.d91b2793'
+[2016.02.01-02.32.57:806][206]LogStreaming:Warning: Failed to read file 'C:\Users\dingzenan\Desktop\模型\其他\Heroes\d91b2793.jpg' error.
+[2016.02.01-02.32.57:806][206]LogStreaming:Warning: Failed to read file 'C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/模型\其他\Heroes\d91b2793.jpg' error.
+[2016.02.01-02.32.57:806][206]LogStreaming:Warning: Failed to read file 'C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/d91b2793.jpg' error.
+[2016.02.01-02.32.57:806][206]LogFbxMaterialImport:Warning: Unable to find TEXTure file d91b2793.jpg. Tried:
+ - C:\Users\dingzenan\Desktop\模型\其他\Heroes\d91b2793.jpg
+ - C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/模型\其他\Heroes\d91b2793.jpg
+ - C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/d91b2793.jpg
+[2016.02.01-02.32.57:827][206]LogMaterial: Missing cached shader map for material 037_-_Default, compiling. 
+[2016.02.01-02.32.57:887][206]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/036_-_Default'
+[2016.02.01-02.32.57:888][206]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/036_-_Default'
+[2016.02.01-02.32.57:889][206]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/10e74fa0'
+[2016.02.01-02.32.57:889][206]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/10e74fa0'
+[2016.02.01-02.32.57:889][206]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/My/ExampleCollection/MeshCollection/Human/Angle/10e74fa0.10e74fa0'
+[2016.02.01-02.32.57:889][206]LogStreaming:Warning: Failed to read file 'C:\Users\dingzenan\Desktop\模型\其他\Heroes\10e74fa0.jpg' error.
+[2016.02.01-02.32.57:889][206]LogStreaming:Warning: Failed to read file 'C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/模型\其他\Heroes\10e74fa0.jpg' error.
+[2016.02.01-02.32.57:889][206]LogStreaming:Warning: Failed to read file 'C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/10e74fa0.jpg' error.
+[2016.02.01-02.32.57:889][206]LogFbxMaterialImport:Warning: Unable to find TEXTure file 10e74fa0.jpg. Tried:
+ - C:\Users\dingzenan\Desktop\模型\其他\Heroes\10e74fa0.jpg
+ - C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/模型\其他\Heroes\10e74fa0.jpg
+ - C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/10e74fa0.jpg
+[2016.02.01-02.32.57:890][206]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/10e74fa0'
+[2016.02.01-02.32.57:890][206]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/My/ExampleCollection/MeshCollection/Human/Angle/10e74fa0.10e74fa0'
+[2016.02.01-02.32.57:890][206]LogStreaming:Warning: Failed to read file 'C:\Users\dingzenan\Desktop\模型\其他\Heroes\10e74fa0.jpg' error.
+[2016.02.01-02.32.57:890][206]LogStreaming:Warning: Failed to read file 'C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/模型\其他\Heroes\10e74fa0.jpg' error.
+[2016.02.01-02.32.57:890][206]LogStreaming:Warning: Failed to read file 'C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/10e74fa0.jpg' error.
+[2016.02.01-02.32.57:890][206]LogFbxMaterialImport:Warning: Unable to find TEXTure file 10e74fa0.jpg. Tried:
+ - C:\Users\dingzenan\Desktop\模型\其他\Heroes\10e74fa0.jpg
+ - C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/模型\其他\Heroes\10e74fa0.jpg
+ - C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/10e74fa0.jpg
+[2016.02.01-02.32.57:890][206]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/54bc3662'
+[2016.02.01-02.32.57:890][206]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/54bc3662'
+[2016.02.01-02.32.57:890][206]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/My/ExampleCollection/MeshCollection/Human/Angle/54bc3662.54bc3662'
+[2016.02.01-02.32.57:890][206]LogStreaming:Warning: Failed to read file 'C:\Users\dingzenan\Desktop\模型\其他\Heroes\54bc3662.jpg' error.
+[2016.02.01-02.32.57:890][206]LogStreaming:Warning: Failed to read file 'C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/模型\其他\Heroes\54bc3662.jpg' error.
+[2016.02.01-02.32.57:890][206]LogStreaming:Warning: Failed to read file 'C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/54bc3662.jpg' error.
+[2016.02.01-02.32.57:890][206]LogFbxMaterialImport:Warning: Unable to find TEXTure file 54bc3662.jpg. Tried:
+ - C:\Users\dingzenan\Desktop\模型\其他\Heroes\54bc3662.jpg
+ - C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/模型\其他\Heroes\54bc3662.jpg
+ - C:/Users/chenxinghui/Desktop/UE4 Texture/Mesh/Angle/54bc3662.jpg
+[2016.02.01-02.32.57:903][206]LogMaterial: Missing cached shader map for material 036_-_Default, compiling. 
+[2016.02.01-02.32.57:939][206]LogStaticMesh: Building static mesh angel...
+[2016.02.01-02.32.59:742][206]LogStaticMesh: Built static mesh [1.815438.2s] /Game/My/ExampleCollection/MeshCollection/Human/Angle/angel.angel
+[2016.02.01-02.32.59:758][206]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.02.01-02.32.59:758][206]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.02.01-02.33.14:482][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008A037380
+[2016.02.01-02.33.14:492][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001294CCC0
+[2016.02.01-02.33.25:085][536]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/chenxinghui/Desktop/MayaOutput/AngleMesh/MyAngle.fbx)
+[2016.02.01-02.33.25:095][536]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.02.01-02.33.25:095][536]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.02.01-02.33.25:095][536]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.02.01-02.33.25:095][536]LogFbx: ItemName: Geometry, ItemCount : 2
+[2016.02.01-02.33.25:095][536]LogFbx: ItemName: Material, ItemCount : 2
+[2016.02.01-02.33.25:095][536]LogFbx: ItemName: Model, ItemCount : 2
+[2016.02.01-02.33.25:095][536]LogFbx: ItemName: AnimationCurveNode, ItemCount : 16
+[2016.02.01-02.33.25:161][536]LogFbx: Loading FBX Scene from C:/Users/chenxinghui/Desktop/MayaOutput/AngleMesh/MyAngle.fbx
+[2016.02.01-02.33.25:284][536]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.01-02.33.28:033][536]LogFbx: Loading FBX Scene from C:/Users/chenxinghui/Desktop/MayaOutput/AngleMesh/MyAngle.fbx
+[2016.02.01-02.33.28:159][536]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.01-02.33.28:189][536]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1'
+[2016.02.01-02.33.28:189][536]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1'
+[2016.02.01-02.33.28:214][536]LogMaterial: Missing cached shader map for material blinn1, compiling. 
+[2016.02.01-02.33.29:015][536]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2'
+[2016.02.01-02.33.29:015][536]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2'
+[2016.02.01-02.33.29:036][536]LogMaterial: Missing cached shader map for material blinn2, compiling. 
+[2016.02.01-02.33.29:088][536]LogStaticMesh: Building static mesh MyAngle...
+[2016.02.01-02.33.29:286][536]LogStaticMesh: Built static mesh [0.215629.2s] /Game/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle.MyAngle
+[2016.02.01-02.34.09:257][123]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.34.09:261][123]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.34.10:528][229]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.34.10:528][229]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.34.10:528][229]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.34.10:861][261]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.34.10:865][261]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.34.10:889][261]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.02.01-02.34.11:801][323]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.34.11:801][323]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.34.11:801][323]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.34.42:344][370]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FB02200
+[2016.02.01-02.34.42:348][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/TestMap/MatTestMap" FILE="E:/Unreal Work Space/ExampleCollection10/Saved/Autosaves/Game/My/TestMap/MatTestMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.02.01-02.34.42:606][370]LogSavePackage: Save=237.882919ms
+[2016.02.01-02.34.42:606][370]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/MatTestMap_Auto18FDC670543C5BCA6532DAD894E311FFA.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Saved/Autosaves/Game/My/TestMap/MatTestMap_Auto1.umap'
+[2016.02.01-02.34.42:621][370]LogSavePackage: Total save time: 271.896947ms
+[2016.02.01-02.34.42:621][370]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Saved/Autosaves/Game/My/TestMap/MatTestMap_Auto1.umap
+[2016.02.01-02.34.42:624][370]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My/TestMap/MatTestMap' took 0.291
+[2016.02.01-02.34.42:624][370]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.291
+[2016.02.01-02.34.42:627][370]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle] ([1] browsable assets)...
+[2016.02.01-02.34.42:641][370]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle.MyAngle]
+[2016.02.01-02.34.42:641][370]OBJ SavePackage: Finished generating thumbnails for package [/Game/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle]
+[2016.02.01-02.34.42:680][370]LogSavePackage: Save=21.743635ms
+[2016.02.01-02.34.42:680][370]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/MyAngle_Auto1A85034B04D7A7577824A21BE4E53E958.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Saved/Autosaves/Game/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle_Auto1.uasset'
+[2016.02.01-02.34.42:681][370]LogSavePackage: Total save time: 39.433490ms
+[2016.02.01-02.34.42:681][370]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Saved/Autosaves/Game/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle_Auto1.uasset
+[2016.02.01-02.34.42:683][370]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1] ([1] browsable assets)...
+[2016.02.01-02.34.42:697][370]OBJ SavePackage:     Rendered thumbnail for [Material /Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1.blinn1]
+[2016.02.01-02.34.42:697][370]OBJ SavePackage: Finished generating thumbnails for package [/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1]
+[2016.02.01-02.34.42:710][370]LogSavePackage: Save=11.744379ms
+[2016.02.01-02.34.42:710][370]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/blinn1_Auto10A8BDCD141DDB1E676382EAB2D8E78B6.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Saved/Autosaves/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1_Auto1.uasset'
+[2016.02.01-02.34.42:711][370]LogSavePackage: Total save time: 13.004228ms
+[2016.02.01-02.34.42:711][370]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Saved/Autosaves/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1_Auto1.uasset
+[2016.02.01-02.34.42:714][370]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2] ([1] browsable assets)...
+[2016.02.01-02.34.42:728][370]OBJ SavePackage:     Rendered thumbnail for [Material /Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2.blinn2]
+[2016.02.01-02.34.42:728][370]OBJ SavePackage: Finished generating thumbnails for package [/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2]
+[2016.02.01-02.34.42:741][370]LogSavePackage: Save=11.738605ms
+[2016.02.01-02.34.42:741][370]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/blinn2_Auto16F4B21004DD1435D054B50AB90F8FF02.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Saved/Autosaves/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2_Auto1.uasset'
+[2016.02.01-02.34.42:742][370]LogSavePackage: Total save time: 12.744110ms
+[2016.02.01-02.34.42:742][370]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Saved/Autosaves/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2_Auto1.uasset
+[2016.02.01-02.34.42:742][370]LogFileHelpers: Auto-saving content packages took 0.117
+[2016.02.01-02.35.35:101][864]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.35.35:105][864]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.35.35:131][864]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.02.01-02.35.36:216][941]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.35.36:216][941]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.35.36:216][941]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.35.36:387][955]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.35.36:391][955]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.35.36:531][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.02.01-02.35.37:359][ 18]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.35.37:359][ 18]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.35.37:359][ 18]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.35.38:578][139]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.35.38:581][139]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.35.39:410][195]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.35.39:410][195]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.35.39:410][195]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.35.39:897][251]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.35.39:901][251]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.35.40:050][251]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.02.01-02.35.40:760][299]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.35.40:760][299]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.35.40:760][299]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.35.41:058][325]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.35.41:062][325]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.35.41:090][325]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.02.01-02.35.41:684][367]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_0, compiling. 
+[2016.02.01-02.35.42:052][395]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.35.42:052][395]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.35.42:052][395]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.35.49:289][ 97]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.35.49:292][ 97]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.35.49:317][ 97]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_0, compiling. 
+[2016.02.01-02.35.50:462][195]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.35.50:462][195]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.35.50:462][195]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.35.51:783][335]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.35.51:786][335]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.35.51:848][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_0, compiling. 
+[2016.02.01-02.35.52:747][401]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.35.52:747][401]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.35.52:747][401]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.35.53:171][448]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.35.53:175][448]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.35.53:265][448]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.02.01-02.35.53:829][489]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_1, compiling. 
+[2016.02.01-02.35.54:060][508]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.35.54:060][508]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.35.54:060][508]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.36.10:148][ 25]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.36.10:152][ 25]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.36.10:179][ 25]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_1, compiling. 
+[2016.02.01-02.36.11:217][ 95]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.36.11:217][ 95]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.36.11:217][ 95]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.36.12:575][223]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.36.12:579][223]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.36.13:451][288]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.36.13:451][288]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.36.13:451][288]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.36.17:047][651]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.36.17:051][651]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.36.17:153][651]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.02.01-02.36.18:001][721]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.36.18:001][721]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.36.18:001][721]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.36.30:999][933]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.36.31:002][933]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.36.31:947][  7]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.36.31:947][  7]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.36.31:947][  7]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.36.32:373][ 49]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.36.32:377][ 49]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.36.32:507][ 49]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_1, compiling. 
+[2016.02.01-02.36.33:358][110]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.36.33:358][110]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.36.33:358][110]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.36.34:461][238]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.36.34:464][238]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.36.34:548][238]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.02.01-02.36.35:410][308]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.36.35:410][308]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.36.35:410][308]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.36.39:837][723]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.36.39:841][723]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.36.40:932][814]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.02.01-02.36.40:932][814]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.02.01-02.36.40:932][814]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.02.01-02.36.58:809][464]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.36.58:812][464]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.36.59:404][513]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.36.59:408][513]LogMaterial: 0.000024 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.37.00:553][592]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.02.01-02.37.00:553][592]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.02.01-02.37.00:553][592]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.02.01-02.37.03:407][868]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.37.03:411][868]LogMaterial: 0.000118 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.37.03:439][868]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.01-02.37.04:345][927]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.02.01-02.37.04:345][927]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.02.01-02.37.04:345][927]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.02.01-02.37.07:379][209]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.37.07:383][209]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.37.08:282][267]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.02.01-02.37.08:282][267]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.02.01-02.37.08:283][267]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.02.01-02.37.08:611][301]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.37.08:615][301]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.37.08:642][301]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.02.01-02.37.09:811][393]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.02.01-02.37.09:811][393]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.02.01-02.37.09:811][393]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.02.01-02.37.11:563][572]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.37.11:567][572]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.37.12:582][649]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.02.01-02.37.12:582][649]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.02.01-02.37.12:582][649]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.02.01-02.37.12:968][691]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.37.12:972][691]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.37.13:023][691]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.01-02.37.14:018][747]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.02.01-02.37.14:018][747]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.02.01-02.37.14:018][747]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.02.01-02.37.14:610][806]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.37.14:614][806]LogMaterial: 0.000152 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.37.14:656][806]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.02.01-02.37.15:608][872]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.02.01-02.37.15:608][872]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.02.01-02.37.15:608][872]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.02.01-02.37.17:066][  6]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.37.17:069][  6]LogMaterial: 0.000175 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.37.18:175][ 94]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.02.01-02.37.18:175][ 94]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.02.01-02.37.18:175][ 94]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.02.01-02.37.24:878][746]LogMaterialEditor: Applying material Mat_MyAngle
+[2016.02.01-02.37.25:221][746]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.37.25:231][746]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.37.25:306][746]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.37.25:317][746]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.37.25:323][746]LogMaterial: 0.001349 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.37.26:298][809]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/TestMap/MatTestMap" FILE="E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.01-02.37.26:789][809]LogSavePackage: Save=435.641815ms
+[2016.02.01-02.37.26:789][809]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/MatTestMapF73E786844991710A54380BC8C3AB8B1.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap'
+[2016.02.01-02.37.26:794][809]LogSavePackage: Total save time: 454.870563ms
+[2016.02.01-02.37.26:794][809]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap
+[2016.02.01-02.37.26:829][809]LogFileHelpers: Saving map 'MatTestMap' took 0.610
+[2016.02.01-02.37.26:916][809]LogSavePackage: Save=4.345648ms
+[2016.02.01-02.37.26:916][809]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/MyAngleEEA8D4BA4CB520F148F1A6B820E1E88D.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle.uasset'
+[2016.02.01-02.37.26:921][809]LogSavePackage: Total save time: 87.066591ms
+[2016.02.01-02.37.26:921][809]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle.uasset
+[2016.02.01-02.37.27:705][809]LogSavePackage: Save=35.442898ms
+[2016.02.01-02.37.27:705][809]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_MyAngle236749A6476350E764CB85939EEF20A0.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngle.uasset'
+[2016.02.01-02.37.27:707][809]LogSavePackage: Total save time: 53.604234ms
+[2016.02.01-02.37.27:707][809]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngle.uasset
+[2016.02.01-02.37.27:739][809]LogSavePackage: Save=13.112316ms
+[2016.02.01-02.37.27:739][809]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/blinn101E1CE554FDF8B7CB1D1F4A5F9A3A122.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/blinn1.uasset'
+[2016.02.01-02.37.27:742][809]LogSavePackage: Total save time: 16.357839ms
+[2016.02.01-02.37.27:742][809]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/blinn1.uasset
+[2016.02.01-02.37.27:789][809]LogSavePackage: Save=26.789770ms
+[2016.02.01-02.37.27:789][809]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/blinn251C61DCF4026FA41A830F39223546DC7.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/blinn2.uasset'
+[2016.02.01-02.37.27:791][809]LogSavePackage: Total save time: 28.599359ms
+[2016.02.01-02.37.27:791][809]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/blinn2.uasset
+[2016.02.01-02.37.27:796][809]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2016.02.01-02.37.27:796][809]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.02.01-02.37.27:796][809]MaterialEditorStats: Info Texture samplers: 9/16
+[2016.02.01-02.37.30:546][984]LogActorFactory: Actor Factory created MyAngle
+[2016.02.01-02.37.31:042][ 26]LogActorFactory: Actor Factory created MyAngle
+[2016.02.01-02.37.35:032][304]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap' with GeneratedClass '/Game/My/TestMap/MatTestMap.MatTestMap_C' with ClassGeneratedBy '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap'
+[2016.02.01-02.37.35:032][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.01-02.37.35:032][304]PIE: New page: PIE session: MatTestMap (Feb 1, 2016, 6:37:35 PM)
+[2016.02.01-02.37.35:032][304]LogPlayLevel: Creating play world package: /Game/My/TestMap/UEDPIE_0_MatTestMap
+[2016.02.01-02.37.35:047][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014741s)
+[2016.02.01-02.37.35:047][304]LogAIModule: Creating AISystem for world MatTestMap
+[2016.02.01-02.37.35:048][304]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2016.02.01-02.37.35:048][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My/TestMap/MatTestMap.MatTestMap to /Game/My/TestMap/UEDPIE_0_MatTestMap.MatTestMap (0.015623s)
+[2016.02.01-02.37.35:080][304]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.01-02.37.35:110][304]LogInit: FAudioDevice initialized.
+[2016.02.01-02.37.35:165][304]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.01-02.37.35:175][304]LogWorld: Bringing World /Game/My/TestMap/UEDPIE_0_MatTestMap.MatTestMap up for play (max tick rate 0) at 2016.02.01-10.37.35
+[2016.02.01-02.37.35:175][304]LogActor:Warning: GameSession /Game/My/TestMap/UEDPIE_0_MatTestMap.MatTestMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.01-02.37.35:175][304]LogActor:Warning: GameNetworkManager /Game/My/TestMap/UEDPIE_0_MatTestMap.MatTestMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.01-02.37.35:176][304]LogWorld: Bringing up level for play took: 0.009595
+[2016.02.01-02.37.35:248][304]PIE: Info Play in editor start time for /Game/My/TestMap/UEDPIE_0_MatTestMap 0.217
+[2016.02.01-02.37.35:248][304]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap' with GeneratedClass '/Game/My/TestMap/MatTestMap.MatTestMap_C' with ClassGeneratedBy '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap'
+[2016.02.01-02.37.39:223][639]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap' with GeneratedClass '/Game/My/TestMap/MatTestMap.MatTestMap_C' with ClassGeneratedBy '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap'
+[2016.02.01-02.37.39:291][639]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap' with GeneratedClass '/Game/My/TestMap/MatTestMap.MatTestMap_C' with ClassGeneratedBy '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap'
+[2016.02.01-02.37.39:310][639]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A953380
+[2016.02.01-02.38.01:635][197]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.38.01:639][197]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.38.02:194][223]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.38.02:198][223]LogMaterial: 0.000022 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.38.02:658][248]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.38.02:662][248]LogMaterial: 0.000023 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.38.03:679][297]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2016.02.01-02.38.03:679][297]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.02.01-02.38.03:679][297]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.02.01-02.38.05:349][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/TestMap/MatTestMap" FILE="E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.01-02.38.05:603][406]LogSavePackage: Save=228.987320ms
+[2016.02.01-02.38.05:603][406]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/MatTestMap4DAE217E4B0FD88884D057A6CC0E98A9.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap'
+[2016.02.01-02.38.05:605][406]LogSavePackage: Total save time: 244.040091ms
+[2016.02.01-02.38.05:605][406]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap
+[2016.02.01-02.38.05:636][406]LogFileHelpers: Saving map 'MatTestMap' took 0.354
+[2016.02.01-02.38.10:346][722]LogSavePackage: Save=39.880596ms
+[2016.02.01-02.38.10:346][722]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_MyAngleBody40AEDF4E4F1C41589D402781CCAC3B52.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngleBody.uasset'
+[2016.02.01-02.38.10:348][722]LogSavePackage: Total save time: 41.765884ms
+[2016.02.01-02.38.10:348][722]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngleBody.uasset
+[2016.02.01-02.38.19:020][315]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.38.19:134][315]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.38.19:138][315]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.38.20:006][357]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.38.20:007][357]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.38.20:007][357]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.38.23:173][581]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.38.23:176][581]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.38.23:879][617]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.38.23:883][617]LogMaterial: 0.000024 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.38.24:906][675]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2016.02.01-02.38.24:906][675]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.01-02.38.24:906][675]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.02.01-02.38.26:015][752]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.38.26:019][752]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.38.26:944][801]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.38.26:944][801]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.38.26:944][801]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.38.28:369][891]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.38.28:373][891]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.38.28:397][891]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.02.01-02.38.29:408][946]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2016.02.01-02.38.29:408][946]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.01-02.38.29:408][946]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.02.01-02.38.35:523][395]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.38.35:527][395]LogMaterial: 0.000141 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.38.35:554][395]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_1, compiling. 
+[2016.02.01-02.38.36:486][436]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2016.02.01-02.38.36:486][436]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.01-02.38.36:486][436]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.02.01-02.38.37:343][496]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.38.37:347][496]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.38.38:285][544]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2016.02.01-02.38.38:285][544]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.01-02.38.38:285][544]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.02.01-02.38.38:416][554]LogMaterialEditor: Applying material Mat_MyAngleBody
+[2016.02.01-02.38.38:737][554]LogMaterial: Missing cached shader map for material Mat_MyAngle, compiling. 
+[2016.02.01-02.38.38:746][554]LogMaterial: 0.000140 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.38.38:898][554]LogMaterial: Missing cached shader map for material Mat_MyAngleBody, compiling. 
+[2016.02.01-02.38.38:911][554]LogMaterial: Missing cached shader map for material Mat_MyAngleBody, compiling. 
+[2016.02.01-02.38.38:918][554]LogMaterial: 0.001288 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.38.39:427][568]LogSavePackage: Save=14.815423ms
+[2016.02.01-02.38.39:427][568]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_MyAngleWingBF5318CD417DD99CB839EC97F59C59C6.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngleWing.uasset'
+[2016.02.01-02.38.39:429][568]LogSavePackage: Total save time: 16.704880ms
+[2016.02.01-02.38.39:429][568]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngleWing.uasset
+[2016.02.01-02.38.40:808][568]LogSavePackage: Save=30.972805ms
+[2016.02.01-02.38.40:808][568]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_MyAngleBodyCC2AD2E94BC4B7A78559718818D69A3B.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngleBody.uasset'
+[2016.02.01-02.38.40:810][568]LogSavePackage: Total save time: 48.925985ms
+[2016.02.01-02.38.40:810][568]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngleBody.uasset
+[2016.02.01-02.38.40:820][568]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2016.02.01-02.38.40:820][568]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.01-02.38.40:820][568]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.02.01-02.38.42:598][694]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyAngle)
+[2016.02.01-02.38.57:158][729]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.38.57:162][729]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.38.57:163][729]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.02.01-02.38.57:190][729]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.02.01-02.38.57:198][729]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.38.57:203][729]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.38.57:204][729]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.02.01-02.38.57:252][729]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.02.01-02.38.57:255][729]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.02.01-02.38.58:405][800]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.38.58:405][800]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.38.58:405][800]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.39.06:885][448]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.39.06:888][448]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.39.07:836][509]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.39.07:836][509]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.39.07:836][509]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.39.08:019][523]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.39.08:023][523]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.39.08:876][574]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.39.08:876][574]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.39.08:876][574]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.39.10:035][658]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.39.10:039][658]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.39.10:064][658]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.02.01-02.39.11:077][716]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.02.01-02.39.11:077][716]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.02.01-02.39.11:077][716]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.02.01-02.39.12:434][818]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.39.12:438][818]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.39.12:484][818]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.02.01-02.39.13:514][882]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.01-02.39.13:514][882]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.02.01-02.39.13:514][882]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.02.01-02.39.13:670][893]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.39.13:673][893]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.39.14:724][962]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.01-02.39.14:724][962]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.02.01-02.39.14:724][962]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.02.01-02.39.15:590][ 29]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.39.15:594][ 29]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.39.16:622][ 97]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.01-02.39.16:622][ 97]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.02.01-02.39.16:622][ 97]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.02.01-02.39.19:967][355]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.39.19:971][355]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.39.20:912][411]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.01-02.39.20:912][411]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.01-02.39.20:912][411]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.02.01-02.39.21:284][441]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.39.21:287][441]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.39.22:257][497]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.01-02.39.22:257][497]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.01-02.39.22:257][497]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.02.01-02.39.24:076][637]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.02.01-02.39.26:404][811]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.39.26:407][811]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.39.26:453][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.02.01-02.39.27:444][879]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.01-02.39.27:444][879]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.01-02.39.27:444][879]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.02.01-02.39.28:051][926]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.39.28:055][926]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.39.28:110][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.02.01-02.39.28:124][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.02.01-02.39.29:117][991]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.02.01-02.39.29:117][991]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.01-02.39.29:117][991]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.02.01-02.39.30:558][ 93]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.39.30:561][ 93]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.39.30:620][ 93]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.02.01-02.39.31:527][138]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.02.01-02.39.31:527][138]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.01-02.39.31:527][138]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.02.01-02.39.32:073][179]LogMaterialEditor: Applying material Mat_MyAngleWing
+[2016.02.01-02.39.32:397][179]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.39.32:407][179]LogMaterial: 0.000162 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.39.32:464][179]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.39.32:502][179]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.01-02.39.32:515][179]LogMaterial: 0.008178 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.01-02.39.33:341][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/TestMap/MatTestMap" FILE="E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.01-02.39.33:927][215]LogSavePackage: Save=483.698944ms
+[2016.02.01-02.39.33:928][215]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/MatTestMap3BD35B0F494F9BF8707D7A9B75374709.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap'
+[2016.02.01-02.39.33:930][215]LogSavePackage: Total save time: 500.703372ms
+[2016.02.01-02.39.33:930][215]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap
+[2016.02.01-02.39.33:965][215]LogFileHelpers: Saving map 'MatTestMap' took 0.696
+[2016.02.01-02.39.34:581][215]LogSavePackage: Save=12.926931ms
+[2016.02.01-02.39.34:581][215]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_MyAngleWing1775F13C49A9E4289FA4B9897C5BA042.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngleWing.uasset'
+[2016.02.01-02.39.34:583][215]LogSavePackage: Total save time: 30.424990ms
+[2016.02.01-02.39.34:583][215]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngleWing.uasset
+[2016.02.01-02.39.34:591][215]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2016.02.01-02.39.34:592][215]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.02.01-02.39.34:592][215]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.02.01-02.39.37:890][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.01-02.39.44:875][959]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap' with GeneratedClass '/Game/My/TestMap/MatTestMap.MatTestMap_C' with ClassGeneratedBy '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap'
+[2016.02.01-02.39.44:875][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.01-02.39.44:876][959]PIE: New page: PIE session: MatTestMap (Feb 1, 2016, 6:39:44 PM)
+[2016.02.01-02.39.44:876][959]LogPlayLevel: Creating play world package: /Game/My/TestMap/UEDPIE_0_MatTestMap
+[2016.02.01-02.39.44:892][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016667s)
+[2016.02.01-02.39.44:908][959]LogAIModule: Creating AISystem for world MatTestMap
+[2016.02.01-02.39.44:908][959]LogPlayLevel: PIE: World Init took: (0.015643s)
+[2016.02.01-02.39.44:908][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My/TestMap/MatTestMap.MatTestMap to /Game/My/TestMap/UEDPIE_0_MatTestMap.MatTestMap (0.032553s)
+[2016.02.01-02.39.44:939][959]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.01-02.39.44:969][959]LogInit: FAudioDevice initialized.
+[2016.02.01-02.39.44:999][959]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.02.01-02.39.45:009][959]LogWorld: Bringing World /Game/My/TestMap/UEDPIE_0_MatTestMap.MatTestMap up for play (max tick rate 0) at 2016.02.01-10.39.45
+[2016.02.01-02.39.45:009][959]LogActor:Warning: GameSession /Game/My/TestMap/UEDPIE_0_MatTestMap.MatTestMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.01-02.39.45:009][959]LogActor:Warning: GameNetworkManager /Game/My/TestMap/UEDPIE_0_MatTestMap.MatTestMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.01-02.39.45:010][959]LogWorld: Bringing up level for play took: 0.009916
+[2016.02.01-02.39.45:012][959]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=3163.595 Y=3152.730 Z=98.984] for [ThirdPersonCharacter_C]
+[2016.02.01-02.39.45:022][959]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2016.02.01-02.39.45:022][959]LogGameMode:Warning: Couldn't spawn Pawn of type ThirdPersonCharacter_C at PlayerStartPIE_1
+[2016.02.01-02.39.45:026][959]PIE: Info Play in editor start time for /Game/My/TestMap/UEDPIE_0_MatTestMap 0.001
+[2016.02.01-02.39.45:026][959]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap' with GeneratedClass '/Game/My/TestMap/MatTestMap.MatTestMap_C' with ClassGeneratedBy '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap'
+[2016.02.01-02.39.46:130][ 59]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap' with GeneratedClass '/Game/My/TestMap/MatTestMap.MatTestMap_C' with ClassGeneratedBy '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap'
+[2016.02.01-02.39.46:172][ 59]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap' with GeneratedClass '/Game/My/TestMap/MatTestMap.MatTestMap_C' with ClassGeneratedBy '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap'
+[2016.02.01-02.39.46:186][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000093184400
+[2016.02.01-02.40.08:658][746]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.02.01-02.40.10:881][892]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap' with GeneratedClass '/Game/My/TestMap/MatTestMap.MatTestMap_C' with ClassGeneratedBy '/Game/My/TestMap/MatTestMap.MatTestMap:PersistentLevel.MatTestMap'
+[2016.02.01-02.40.10:881][892]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.01-02.40.10:881][892]PIE: New page: PIE session: MatTestMap (Feb 1, 2016, 6:40:10 PM)
+[2016.02.01-02.40.10:881][892]LogPlayLevel: Creating play world package: /Game/My/TestMap/UEDPIE_0_MatTestMap
+[2016.02.01-02.40.10:898][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016637s)
+[2016.02.01-02.40.10:898][892]LogAIModule: Creating AISystem for world MatTestMap
+[2016.02.01-02.40.10:898][892]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2016.02.01-02.40.10:898][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My/TestMap/MatTestMap.MatTestMap to /Game/My/TestMap/UEDPIE_0_MatTestMap.MatTestMap (0.017582s)
+[2016.02.01-02.40.10:927][892]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (

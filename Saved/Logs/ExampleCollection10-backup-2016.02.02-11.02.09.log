@@ -1,0 +1,1354 @@
+﻿[2016.02.02-02.39.42:839][  0]Log file open, 02/02/16 10:39:42
+[2016.02.02-02.39.42:839][  0]LogInit:Display: Running engine for game: ExampleCollection10
+[2016.02.02-02.39.42:839][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.02-02.39.42:839][  0]LogInit:Display: RandInit(1227955995) SRandInit(1227955996).
+[2016.02.02-02.39.42:839][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.02-02.39.42:839][  0]LogStats: Stats thread started at 0.137854
+[2016.02.02-02.39.42:839][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.02.02-02.39.42:839][  0]LogInit: API Version: 2758231
+[2016.02.02-02.39.42:839][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2016.02.02-02.39.42:839][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.02-02.39.42:839][  0]LogInit: Build Configuration: Development
+[2016.02.02-02.39.42:839][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.02-02.39.42:839][  0]LogInit: Command line:  
+[2016.02.02-02.39.42:839][  0]LogInit: Base directory: D:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.02-02.39.42:839][  0]LogInit: Rocket: 1
+[2016.02.02-02.39.42:894][  0]LogInit: Using libcurl 7.41.0
+[2016.02.02-02.39.42:894][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.02-02.39.42:894][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.02-02.39.42:894][  0]LogInit:  - other features:
+[2016.02.02-02.39.42:894][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.02-02.39.42:894][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.02-02.39.42:894][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.02-02.39.42:894][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.02-02.39.42:894][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.02-02.39.42:894][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.02-02.39.42:894][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.02-02.39.42:894][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.02-02.39.42:894][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.02-02.39.42:894][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.02-02.39.42:981][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.02-02.39.42:987][  0]LogInit: Object subsystem initialized
+[2016.02.02-02.39.42:988][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.02-02.39.42:988][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.02-02.39.43:004][  0]LogInit: Computer: PLAN-CHENXINGHU
+[2016.02.02-02.39.43:004][  0]LogInit: User: chenxinghui
+[2016.02.02-02.39.43:004][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.02-02.39.43:004][  0]LogInit: High frequency timer resolution =3.117832 MHz
+[2016.02.02-02.39.43:004][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.02.02-02.39.43:004][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.02-02.39.43:004][  0]LogMemory: Process Physical Memory: 57.10 MB used, 57.10 MB peak
+[2016.02.02-02.39.43:004][  0]LogMemory: Process Virtual Memory: 57.69 MB used, 57.69 MB peak
+[2016.02.02-02.39.43:004][  0]LogMemory: Physical Memory: 4057.13 MB used, 8130.04 MB total
+[2016.02.02-02.39.43:004][  0]LogMemory: Virtual Memory: 350.46 MB used, 8388608.00 MB total
+[2016.02.02-02.39.43:834][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2016.02.02-02.39.43:834][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2016.02.02-02.39.43:834][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.02-02.39.43:843][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.02-02.39.43:843][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.02-02.39.43:852][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.02-02.39.43:866][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (E:/Unreal Work Space/ExampleCollection10/Intermediate/Shaders/WorkingDirectory/3188/).
+[2016.02.02-02.39.43:866][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/CHENXI~1/AppData/Local/Temp/UnrealShaderWorkingDir/7AC933F34B89898BFE56E589BC0DB8DD/'.
+[2016.02.02-02.39.43:866][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.02-02.39.47:002][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.02-02.39.47:006][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.02-02.39.47:011][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.02-02.39.47:015][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.02-02.39.47:019][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.02-02.39.47:024][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.02-02.39.47:028][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.02-02.39.47:031][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.02-02.39.47:033][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.02-02.39.47:036][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.02-02.39.47:038][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.02-02.39.47:045][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.02-02.39.47:045][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.02-02.39.47:046][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.02-02.39.47:122][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.02-02.39.47:124][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.02-02.39.47:128][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.02-02.39.47:143][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.02-02.39.47:143][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.02-02.39.47:640][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.02-02.39.48:121][  0]LogDerivedDataCache: Loaded boot cache 0.48s 41MB C:/Users/chenxinghui/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.02-02.39.48:121][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/chenxinghui/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.02-02.39.48:122][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal Work Space/ExampleCollection10/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.02-02.39.48:122][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.02-02.39.48:122][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal Work Space/ExampleCollection10/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.02-02.39.48:122][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.02-02.39.48:273][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.02-02.39.48:284][  0]LogDerivedDataCache: Using Local data cache path C:/Users/chenxinghui/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.02-02.39.56:525][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.02-02.39.56:526][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.02-02.39.56:574][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.02-02.39.56:574][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.02-02.39.57:123][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.02-02.40.04:317][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.02-02.40.04:660][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2016.02.02-02.40.04:883][  0]SourceControl: Info Source control is disabled
+[2016.02.02-02.40.04:884][  0]SourceControl: Info Source control is disabled
+[2016.02.02-02.40.04:893][  0]SourceControl: Info Source control is disabled
+[2016.02.02-02.40.04:901][  0]SourceControl: Info Source control is disabled
+[2016.02.02-02.40.05:320][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.02.02-02.40.05:320][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.02.02-02.40.05:405][  0]LogEngine: Initializing Engine...
+[2016.02.02-02.40.05:406][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.02-02.40.05:435][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.02-02.40.05:627][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.02-02.40.05:650][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.02-02.40.05:915][  0]LogInit: FAudioDevice initialized.
+[2016.02.02-02.40.05:939][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/chenxinghui/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.02-02.40.05:944][  0]LogInit: Texture streaming: Enabled
+[2016.02.02-02.40.05:949][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.02-02.40.05:949][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.02.02-02.40.05:949][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId fcc8beb743eb3f315b3205bc8f91fbb8|ecc15fb7c1f4439e807eef072eca5f98|c014cd18-b694-4710-a8b7-958888126c98
+[2016.02.02-02.40.05:949][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.02-02.40.06:240][  0]LogInit: Transaction tracking system initialized
+[2016.02.02-02.40.06:267][  0]BlueprintLog: New page: Editor Load
+[2016.02.02-02.40.06:452][  0]LocalizationService: Info Localization service is disabled
+[2016.02.02-02.40.06:828][  0]LogConsoleResponse:Display: 
+[2016.02.02-02.40.11:229][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.02-02.40.11:572][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Work Space/ExampleCollection10/Content/' took 0.02s
+[2016.02.02-02.40.11:572][  0]SourceControl: Info Source control is disabled
+[2016.02.02-02.40.11:572][  0]Cmd: MAP LOAD FILE="E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.02-02.40.11:820][  0]LightingResults: New page: Lighting Build
+[2016.02.02-02.40.11:822][  0]MapCheck: New page: Map Check
+[2016.02.02-02.40.11:822][  0]LightingResults: New page: Lighting Build
+[2016.02.02-02.40.11:832][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023D02AC0
+[2016.02.02-02.40.15:184][  0]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1'
+[2016.02.02-02.40.15:184][  0]LogLinker:Warning: Can't find file for asset '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1' while loading E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle.uasset.
+[2016.02.02-02.40.15:220][  0]LoadErrors:Error: Error /Game/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle : Can't find file for asset. /Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1
+[2016.02.02-02.40.15:220][  0]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2'
+[2016.02.02-02.40.15:221][  0]LogLinker:Warning: Can't find file for asset '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2' while loading E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle.uasset.
+[2016.02.02-02.40.15:221][  0]LoadErrors:Error: Error /Game/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle : Can't find file for asset. /Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2
+[2016.02.02-02.40.15:221][  0]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1'
+[2016.02.02-02.40.15:221][  0]LogLinker:Warning: Can't find file for asset '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1' while loading E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle.uasset.
+[2016.02.02-02.40.15:221][  0]LoadErrors:Error: Error /Game/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle : Can't find file for asset. /Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1
+[2016.02.02-02.40.15:221][  0]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2'
+[2016.02.02-02.40.15:221][  0]LogLinker:Warning: Can't find file for asset '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2' while loading E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle.uasset.
+[2016.02.02-02.40.15:221][  0]LoadErrors:Error: Error /Game/My/ExampleCollection/MeshCollection/Human/Angle/MyAngle : Can't find file for asset. /Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2
+[2016.02.02-02.40.16:196][  0]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1'
+[2016.02.02-02.40.16:196][  0]LoadErrors: Info Failed to load /Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1.blinn1 Referenced by MyAngle
+[2016.02.02-02.40.16:196][  0]LogLinker:Warning: Can't find file for asset '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1' while loading NULL.
+[2016.02.02-02.40.16:196][  0]LoadErrors: Info Failed to load /Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1.blinn1 Referenced by MyAngle
+[2016.02.02-02.40.16:196][  0]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2'
+[2016.02.02-02.40.16:196][  0]LoadErrors: Info Failed to load /Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2.blinn2 Referenced by MyAngle
+[2016.02.02-02.40.16:196][  0]LogLinker:Warning: Can't find file for asset '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2' while loading NULL.
+[2016.02.02-02.40.16:196][  0]LoadErrors: Info Failed to load /Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2.blinn2 Referenced by MyAngle
+[2016.02.02-02.40.25:317][  0]LogAIModule: Creating AISystem for world MatTestMap
+[2016.02.02-02.40.25:368][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.02-02.40.25:368][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.02-02.40.25:429][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.131ms to complete.
+[2016.02.02-02.40.25:429][  0]LogFileHelpers: Loading map 'MatTestMap' took 13.858
+[2016.02.02-02.40.25:916][  0]LogCollectionManager: Loaded 0 collections in 0.002476 seconds
+[2016.02.02-02.40.25:964][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Work Space/ExampleCollection10/Saved/Collections/' took 0.01s
+[2016.02.02-02.40.25:964][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Work Space/ExampleCollection10/Content/Developers/chenxinghui/Collections/' took 0.01s
+[2016.02.02-02.40.25:964][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Work Space/ExampleCollection10/Content/Collections/' took 0.01s
+[2016.02.02-02.40.25:964][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.02.02-02.40.25:970][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 1893 classes and 338 folders.
+[2016.02.02-02.40.25:979][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.02.02-02.40.29:049][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.02.02-02.40.29:052][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.02.02-02.40.29:347][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.02-02.40.29:350][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.02-02.40.29:371][  0]LogLoad: Full Startup: 47.65 seconds (BP compile: 0.15 seconds)
+[2016.02.02-02.40.29:711][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.02-02.40.29:882][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.02-02.40.30:171][  0]LogRenderer: Reallocating scene render targets to support 872x552 (Frame:2).
+[2016.02.02-02.40.32:013][  6]LogAssetRegistry: Asset discovery search completed in 27.3643 seconds
+[2016.02.02-02.40.32:013][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.02-02.40.32:013][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2016.02.02-02.42.29:909][713]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/chenxinghui/Desktop/MayaOutput/Angle/AngleMesh/Mesh_Angle.FBX)
+[2016.02.02-02.42.29:932][713]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.02.02-02.42.29:932][713]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.02.02-02.42.29:932][713]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.02.02-02.42.29:932][713]LogFbx: ItemName: NodeAttribute, ItemCount : 163
+[2016.02.02-02.42.29:932][713]LogFbx: ItemName: Model, ItemCount : 183
+[2016.02.02-02.42.29:932][713]LogFbx: ItemName: Geometry, ItemCount : 20
+[2016.02.02-02.42.29:932][713]LogFbx: ItemName: Material, ItemCount : 3
+[2016.02.02-02.42.29:932][713]LogFbx: ItemName: AnimationCurveNode, ItemCount : 398
+[2016.02.02-02.42.29:932][713]LogFbx: ItemName: Container, ItemCount : 7
+[2016.02.02-02.42.29:932][713]LogFbx: ItemName: AnimationCurve, ItemCount : 12
+[2016.02.02-02.42.29:932][713]LogFbx: ItemName: Pose, ItemCount : 18
+[2016.02.02-02.42.29:932][713]LogFbx: ItemName: Deformer, ItemCount : 151
+[2016.02.02-02.42.30:005][713]LogFbx: Loading FBX Scene from C:/Users/chenxinghui/Desktop/MayaOutput/Angle/AngleMesh/Mesh_Angle.FBX
+[2016.02.02-02.42.30:834][713]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.02-02.42.54:856][713]LogFbx: Loading FBX Scene from C:/Users/chenxinghui/Desktop/MayaOutput/Angle/AngleMesh/Mesh_Angle.FBX
+[2016.02.02-02.42.55:531][713]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.02-02.42.55:773][713]LogFbx: =================================================
+[2016.02.02-02.42.55:773][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface8] 
+[2016.02.02-02.42.55:773][713]LogFbx: 	Total Deformer Count 352555136.
+[2016.02.02-02.42.55:773][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:773][713]LogFbx: =================================================
+[2016.02.02-02.42.55:773][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:774][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface8 (Type Mesh).
+[2016.02.02-02.42.55:774][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface8]
+[2016.02.02-02.42.55:774][713]LogFbx: =================================================
+[2016.02.02-02.42.55:774][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface9] 
+[2016.02.02-02.42.55:774][713]LogFbx: 	Total Deformer Count 352555136.
+[2016.02.02-02.42.55:774][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:774][713]LogFbx: =================================================
+[2016.02.02-02.42.55:774][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:774][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface9 (Type Mesh).
+[2016.02.02-02.42.55:774][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface9]
+[2016.02.02-02.42.55:774][713]LogFbx: =================================================
+[2016.02.02-02.42.55:774][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface14] 
+[2016.02.02-02.42.55:774][713]LogFbx: 	Total Deformer Count 352555136.
+[2016.02.02-02.42.55:774][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:774][713]LogFbx: =================================================
+[2016.02.02-02.42.55:774][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:774][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface14 (Type Mesh).
+[2016.02.02-02.42.55:774][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface14]
+[2016.02.02-02.42.55:774][713]LogFbx: =================================================
+[2016.02.02-02.42.55:774][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface23] 
+[2016.02.02-02.42.55:774][713]LogFbx: 	Total Deformer Count 352555136.
+[2016.02.02-02.42.55:774][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:774][713]LogFbx: =================================================
+[2016.02.02-02.42.55:774][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:774][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface23 (Type Mesh).
+[2016.02.02-02.42.55:774][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface23]
+[2016.02.02-02.42.55:774][713]LogFbx: =================================================
+[2016.02.02-02.42.55:774][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface24] 
+[2016.02.02-02.42.55:774][713]LogFbx: 	Total Deformer Count 352555136.
+[2016.02.02-02.42.55:774][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:774][713]LogFbx: =================================================
+[2016.02.02-02.42.55:774][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:774][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface24 (Type Mesh).
+[2016.02.02-02.42.55:774][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface24]
+[2016.02.02-02.42.55:774][713]LogFbx: =================================================
+[2016.02.02-02.42.55:774][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface25] 
+[2016.02.02-02.42.55:774][713]LogFbx: 	Total Deformer Count 352555136.
+[2016.02.02-02.42.55:774][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:774][713]LogFbx: =================================================
+[2016.02.02-02.42.55:774][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:774][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface25 (Type Mesh).
+[2016.02.02-02.42.55:774][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface25]
+[2016.02.02-02.42.55:774][713]LogFbx: =================================================
+[2016.02.02-02.42.55:774][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface26] 
+[2016.02.02-02.42.55:775][713]LogFbx: 	Total Deformer Count 352555136.
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface26 (Type Mesh).
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface26]
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface27] 
+[2016.02.02-02.42.55:775][713]LogFbx: 	Total Deformer Count 352555136.
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface27 (Type Mesh).
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface27]
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface28] 
+[2016.02.02-02.42.55:775][713]LogFbx: 	Total Deformer Count 352555136.
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface28 (Type Mesh).
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface28]
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface29] 
+[2016.02.02-02.42.55:775][713]LogFbx: 	Total Deformer Count 352555136.
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface29 (Type Mesh).
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface29]
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface30] 
+[2016.02.02-02.42.55:775][713]LogFbx: 	Total Deformer Count 352555136.
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface30 (Type Mesh).
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface30]
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface31] 
+[2016.02.02-02.42.55:775][713]LogFbx: 	Total Deformer Count 352555136.
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface31 (Type Mesh).
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface31]
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface38] 
+[2016.02.02-02.42.55:775][713]LogFbx: 	Total Deformer Count 352555008.
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface38 (Type Mesh).
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface38]
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface39] 
+[2016.02.02-02.42.55:775][713]LogFbx: 	Total Deformer Count 352555008.
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface39 (Type Mesh).
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface39]
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface40] 
+[2016.02.02-02.42.55:775][713]LogFbx: 	Total Deformer Count 352555008.
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface40 (Type Mesh).
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface40]
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface41] 
+[2016.02.02-02.42.55:775][713]LogFbx: 	Total Deformer Count 352555008.
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface41 (Type Mesh).
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface41]
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface42] 
+[2016.02.02-02.42.55:775][713]LogFbx: 	Total Deformer Count 352555008.
+[2016.02.02-02.42.55:775][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:775][713]LogFbx: =================================================
+[2016.02.02-02.42.55:775][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:776][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface42 (Type Mesh).
+[2016.02.02-02.42.55:776][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface42]
+[2016.02.02-02.42.55:776][713]LogFbx: =================================================
+[2016.02.02-02.42.55:776][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface46] 
+[2016.02.02-02.42.55:776][713]LogFbx: 	Total Deformer Count 352555008.
+[2016.02.02-02.42.55:776][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:776][713]LogFbx: =================================================
+[2016.02.02-02.42.55:776][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:776][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface46 (Type Mesh).
+[2016.02.02-02.42.55:776][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface46]
+[2016.02.02-02.42.55:779][713]LogFbx: =================================================
+[2016.02.02-02.42.55:779][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface8] 
+[2016.02.02-02.42.55:779][713]LogFbx: 	Total Deformer Count 352552832.
+[2016.02.02-02.42.55:779][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:779][713]LogFbx: =================================================
+[2016.02.02-02.42.55:779][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:779][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface8 (Type Mesh).
+[2016.02.02-02.42.55:779][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface8]
+[2016.02.02-02.42.55:779][713]LogFbx: =================================================
+[2016.02.02-02.42.55:779][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface9] 
+[2016.02.02-02.42.55:779][713]LogFbx: 	Total Deformer Count 352552832.
+[2016.02.02-02.42.55:779][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:779][713]LogFbx: =================================================
+[2016.02.02-02.42.55:779][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:779][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface9 (Type Mesh).
+[2016.02.02-02.42.55:779][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface9]
+[2016.02.02-02.42.55:779][713]LogFbx: =================================================
+[2016.02.02-02.42.55:779][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface14] 
+[2016.02.02-02.42.55:779][713]LogFbx: 	Total Deformer Count 352552832.
+[2016.02.02-02.42.55:779][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:779][713]LogFbx: =================================================
+[2016.02.02-02.42.55:779][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:779][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface14 (Type Mesh).
+[2016.02.02-02.42.55:779][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface14]
+[2016.02.02-02.42.55:779][713]LogFbx: =================================================
+[2016.02.02-02.42.55:779][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface23] 
+[2016.02.02-02.42.55:779][713]LogFbx: 	Total Deformer Count 352552832.
+[2016.02.02-02.42.55:779][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:779][713]LogFbx: =================================================
+[2016.02.02-02.42.55:779][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:779][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface23 (Type Mesh).
+[2016.02.02-02.42.55:779][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface23]
+[2016.02.02-02.42.55:779][713]LogFbx: =================================================
+[2016.02.02-02.42.55:779][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface24] 
+[2016.02.02-02.42.55:779][713]LogFbx: 	Total Deformer Count 352552832.
+[2016.02.02-02.42.55:779][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:779][713]LogFbx: =================================================
+[2016.02.02-02.42.55:779][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:779][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface24 (Type Mesh).
+[2016.02.02-02.42.55:780][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface24]
+[2016.02.02-02.42.55:780][713]LogFbx: =================================================
+[2016.02.02-02.42.55:780][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface25] 
+[2016.02.02-02.42.55:780][713]LogFbx: 	Total Deformer Count 352552832.
+[2016.02.02-02.42.55:780][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:780][713]LogFbx: =================================================
+[2016.02.02-02.42.55:780][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:780][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface25 (Type Mesh).
+[2016.02.02-02.42.55:780][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface25]
+[2016.02.02-02.42.55:780][713]LogFbx: =================================================
+[2016.02.02-02.42.55:780][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface26] 
+[2016.02.02-02.42.55:780][713]LogFbx: 	Total Deformer Count 352552832.
+[2016.02.02-02.42.55:780][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:780][713]LogFbx: =================================================
+[2016.02.02-02.42.55:780][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:780][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface26 (Type Mesh).
+[2016.02.02-02.42.55:780][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface26]
+[2016.02.02-02.42.55:780][713]LogFbx: =================================================
+[2016.02.02-02.42.55:780][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface27] 
+[2016.02.02-02.42.55:780][713]LogFbx: 	Total Deformer Count 352552832.
+[2016.02.02-02.42.55:780][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:780][713]LogFbx: =================================================
+[2016.02.02-02.42.55:780][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:780][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface27 (Type Mesh).
+[2016.02.02-02.42.55:780][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface27]
+[2016.02.02-02.42.55:780][713]LogFbx: =================================================
+[2016.02.02-02.42.55:780][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface28] 
+[2016.02.02-02.42.55:780][713]LogFbx: 	Total Deformer Count 352552832.
+[2016.02.02-02.42.55:780][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:780][713]LogFbx: =================================================
+[2016.02.02-02.42.55:780][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:780][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface28 (Type Mesh).
+[2016.02.02-02.42.55:780][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface28]
+[2016.02.02-02.42.55:780][713]LogFbx: =================================================
+[2016.02.02-02.42.55:780][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface29] 
+[2016.02.02-02.42.55:780][713]LogFbx: 	Total Deformer Count 352552832.
+[2016.02.02-02.42.55:780][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:780][713]LogFbx: =================================================
+[2016.02.02-02.42.55:780][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:780][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface29 (Type Mesh).
+[2016.02.02-02.42.55:780][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface29]
+[2016.02.02-02.42.55:780][713]LogFbx: =================================================
+[2016.02.02-02.42.55:780][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface30] 
+[2016.02.02-02.42.55:780][713]LogFbx: 	Total Deformer Count 352552832.
+[2016.02.02-02.42.55:780][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:780][713]LogFbx: =================================================
+[2016.02.02-02.42.55:780][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:780][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface30 (Type Mesh).
+[2016.02.02-02.42.55:780][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface30]
+[2016.02.02-02.42.55:780][713]LogFbx: =================================================
+[2016.02.02-02.42.55:780][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface31] 
+[2016.02.02-02.42.55:780][713]LogFbx: 	Total Deformer Count 352552832.
+[2016.02.02-02.42.55:780][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:780][713]LogFbx: =================================================
+[2016.02.02-02.42.55:780][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:780][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface31 (Type Mesh).
+[2016.02.02-02.42.55:780][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface31]
+[2016.02.02-02.42.55:781][713]LogFbx: =================================================
+[2016.02.02-02.42.55:781][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface8] 
+[2016.02.02-02.42.55:781][713]LogFbx: 	Total Deformer Count 352555008.
+[2016.02.02-02.42.55:781][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:781][713]LogFbx: =================================================
+[2016.02.02-02.42.55:781][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:781][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface8 (Type Mesh).
+[2016.02.02-02.42.55:781][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface8]
+[2016.02.02-02.42.55:781][713]LogFbx: =================================================
+[2016.02.02-02.42.55:781][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface9] 
+[2016.02.02-02.42.55:781][713]LogFbx: 	Total Deformer Count 352555008.
+[2016.02.02-02.42.55:781][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:781][713]LogFbx: =================================================
+[2016.02.02-02.42.55:781][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:781][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface9 (Type Mesh).
+[2016.02.02-02.42.55:781][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface9]
+[2016.02.02-02.42.55:782][713]LogFbx: =================================================
+[2016.02.02-02.42.55:782][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface14] 
+[2016.02.02-02.42.55:782][713]LogFbx: 	Total Deformer Count 1557495552.
+[2016.02.02-02.42.55:782][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:782][713]LogFbx: =================================================
+[2016.02.02-02.42.55:782][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:782][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface14 (Type Mesh).
+[2016.02.02-02.42.55:782][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface14]
+[2016.02.02-02.42.55:782][713]LogFbx: =================================================
+[2016.02.02-02.42.55:782][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface23] 
+[2016.02.02-02.42.55:782][713]LogFbx: 	Total Deformer Count 1557495552.
+[2016.02.02-02.42.55:782][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:782][713]LogFbx: =================================================
+[2016.02.02-02.42.55:782][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:782][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface23 (Type Mesh).
+[2016.02.02-02.42.55:782][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface23]
+[2016.02.02-02.42.55:783][713]LogFbx: =================================================
+[2016.02.02-02.42.55:783][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface24] 
+[2016.02.02-02.42.55:783][713]LogFbx: 	Total Deformer Count 1557495552.
+[2016.02.02-02.42.55:783][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:783][713]LogFbx: =================================================
+[2016.02.02-02.42.55:783][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:783][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface24 (Type Mesh).
+[2016.02.02-02.42.55:783][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface24]
+[2016.02.02-02.42.55:783][713]LogFbx: =================================================
+[2016.02.02-02.42.55:783][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface25] 
+[2016.02.02-02.42.55:783][713]LogFbx: 	Total Deformer Count 1557495552.
+[2016.02.02-02.42.55:783][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:783][713]LogFbx: =================================================
+[2016.02.02-02.42.55:783][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:783][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface25 (Type Mesh).
+[2016.02.02-02.42.55:783][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface25]
+[2016.02.02-02.42.55:783][713]LogFbx: =================================================
+[2016.02.02-02.42.55:783][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface26] 
+[2016.02.02-02.42.55:783][713]LogFbx: 	Total Deformer Count 1557495552.
+[2016.02.02-02.42.55:783][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:783][713]LogFbx: =================================================
+[2016.02.02-02.42.55:783][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:783][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface26 (Type Mesh).
+[2016.02.02-02.42.55:783][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface26]
+[2016.02.02-02.42.55:783][713]LogFbx: =================================================
+[2016.02.02-02.42.55:783][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface27] 
+[2016.02.02-02.42.55:783][713]LogFbx: 	Total Deformer Count 1557495552.
+[2016.02.02-02.42.55:783][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:783][713]LogFbx: =================================================
+[2016.02.02-02.42.55:783][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:783][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface27 (Type Mesh).
+[2016.02.02-02.42.55:783][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface27]
+[2016.02.02-02.42.55:783][713]LogFbx: =================================================
+[2016.02.02-02.42.55:783][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface28] 
+[2016.02.02-02.42.55:783][713]LogFbx: 	Total Deformer Count 1557495552.
+[2016.02.02-02.42.55:783][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:783][713]LogFbx: =================================================
+[2016.02.02-02.42.55:783][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:783][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface28 (Type Mesh).
+[2016.02.02-02.42.55:783][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface28]
+[2016.02.02-02.42.55:784][713]LogFbx: =================================================
+[2016.02.02-02.42.55:784][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface29] 
+[2016.02.02-02.42.55:784][713]LogFbx: 	Total Deformer Count 1557495552.
+[2016.02.02-02.42.55:784][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:784][713]LogFbx: =================================================
+[2016.02.02-02.42.55:784][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:784][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface29 (Type Mesh).
+[2016.02.02-02.42.55:784][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface29]
+[2016.02.02-02.42.55:784][713]LogFbx: =================================================
+[2016.02.02-02.42.55:784][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface30] 
+[2016.02.02-02.42.55:784][713]LogFbx: 	Total Deformer Count 1557495552.
+[2016.02.02-02.42.55:784][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:784][713]LogFbx: =================================================
+[2016.02.02-02.42.55:784][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:784][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface30 (Type Mesh).
+[2016.02.02-02.42.55:784][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface30]
+[2016.02.02-02.42.55:784][713]LogFbx: =================================================
+[2016.02.02-02.42.55:784][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface31] 
+[2016.02.02-02.42.55:784][713]LogFbx: 	Total Deformer Count 1557495552.
+[2016.02.02-02.42.55:784][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:784][713]LogFbx: =================================================
+[2016.02.02-02.42.55:784][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:784][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface31 (Type Mesh).
+[2016.02.02-02.42.55:784][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface31]
+[2016.02.02-02.42.55:784][713]LogFbx: =================================================
+[2016.02.02-02.42.55:784][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface38] 
+[2016.02.02-02.42.55:784][713]LogFbx: 	Total Deformer Count 1557495552.
+[2016.02.02-02.42.55:784][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:784][713]LogFbx: =================================================
+[2016.02.02-02.42.55:784][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:784][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface38 (Type Mesh).
+[2016.02.02-02.42.55:784][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface38]
+[2016.02.02-02.42.55:784][713]LogFbx: =================================================
+[2016.02.02-02.42.55:784][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface39] 
+[2016.02.02-02.42.55:784][713]LogFbx: 	Total Deformer Count 1557495552.
+[2016.02.02-02.42.55:784][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:784][713]LogFbx: =================================================
+[2016.02.02-02.42.55:784][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:784][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface39 (Type Mesh).
+[2016.02.02-02.42.55:784][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface39]
+[2016.02.02-02.42.55:784][713]LogFbx: =================================================
+[2016.02.02-02.42.55:784][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface40] 
+[2016.02.02-02.42.55:784][713]LogFbx: 	Total Deformer Count 1557495552.
+[2016.02.02-02.42.55:784][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:784][713]LogFbx: =================================================
+[2016.02.02-02.42.55:784][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:784][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface40 (Type Mesh).
+[2016.02.02-02.42.55:784][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface40]
+[2016.02.02-02.42.55:784][713]LogFbx: =================================================
+[2016.02.02-02.42.55:784][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface41] 
+[2016.02.02-02.42.55:784][713]LogFbx: 	Total Deformer Count 1557495552.
+[2016.02.02-02.42.55:784][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:784][713]LogFbx: =================================================
+[2016.02.02-02.42.55:784][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:784][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface41 (Type Mesh).
+[2016.02.02-02.42.55:784][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface41]
+[2016.02.02-02.42.55:785][713]LogFbx: =================================================
+[2016.02.02-02.42.55:785][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface42] 
+[2016.02.02-02.42.55:785][713]LogFbx: 	Total Deformer Count 1557495552.
+[2016.02.02-02.42.55:785][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:785][713]LogFbx: =================================================
+[2016.02.02-02.42.55:785][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:785][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface42 (Type Mesh).
+[2016.02.02-02.42.55:785][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface42]
+[2016.02.02-02.42.55:785][713]LogFbx: =================================================
+[2016.02.02-02.42.55:785][713]LogFbx: Dumping Node START [Angel_One:AngleCache:polySurface46] 
+[2016.02.02-02.42.55:785][713]LogFbx: 	Total Deformer Count 1557495552.
+[2016.02.02-02.42.55:785][713]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.02-02.42.55:785][713]LogFbx: =================================================
+[2016.02.02-02.42.55:785][713]LogFbx: 	Attribute () Type (4).
+[2016.02.02-02.42.55:785][713]LogFbx: 		[Node Attribute Child 1] Angel_One:AngleCache:polySurface46 (Type Mesh).
+[2016.02.02-02.42.55:785][713]LogFbx: Dumping Node END [Angel_One:AngleCache:polySurface46]
+[2016.02.02-02.42.55:849][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface8 : The relative matrices do not match
+[2016.02.02-02.42.55:859][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface9 : The relative matrices do not match
+[2016.02.02-02.42.55:867][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface14 : The relative matrices do not match
+[2016.02.02-02.42.55:876][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface23 : The relative matrices do not match
+[2016.02.02-02.42.55:884][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface24 : The relative matrices do not match
+[2016.02.02-02.42.55:893][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface25 : The relative matrices do not match
+[2016.02.02-02.42.55:901][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface26 : The relative matrices do not match
+[2016.02.02-02.42.55:911][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface27 : The relative matrices do not match
+[2016.02.02-02.42.55:919][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface28 : The relative matrices do not match
+[2016.02.02-02.42.55:928][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface29 : The relative matrices do not match
+[2016.02.02-02.42.55:936][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface30 : The relative matrices do not match
+[2016.02.02-02.42.55:945][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface31 : The relative matrices do not match
+[2016.02.02-02.42.55:952][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface38 : The relative matrices do not match
+[2016.02.02-02.42.55:960][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface39 : The relative matrices do not match
+[2016.02.02-02.42.55:966][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface40 : The relative matrices do not match
+[2016.02.02-02.42.55:973][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface41 : The relative matrices do not match
+[2016.02.02-02.42.55:981][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface42 : The relative matrices do not match
+[2016.02.02-02.42.55:987][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster1) - Node Angel_One:AngleCache:polySurface46 : The relative matrices do not match
+[2016.02.02-02.42.56:004][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface8 : The relative matrices do not match
+[2016.02.02-02.42.56:005][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface9 : The relative matrices do not match
+[2016.02.02-02.42.56:005][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface14 : The relative matrices do not match
+[2016.02.02-02.42.56:006][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface23 : The relative matrices do not match
+[2016.02.02-02.42.56:007][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface24 : The relative matrices do not match
+[2016.02.02-02.42.56:007][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface25 : The relative matrices do not match
+[2016.02.02-02.42.56:008][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface26 : The relative matrices do not match
+[2016.02.02-02.42.56:008][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface27 : The relative matrices do not match
+[2016.02.02-02.42.56:009][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface28 : The relative matrices do not match
+[2016.02.02-02.42.56:009][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface29 : The relative matrices do not match
+[2016.02.02-02.42.56:010][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface30 : The relative matrices do not match
+[2016.02.02-02.42.56:010][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface31 : The relative matrices do not match
+[2016.02.02-02.42.56:010][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface38 : The relative matrices do not match
+[2016.02.02-02.42.56:011][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface39 : The relative matrices do not match
+[2016.02.02-02.42.56:011][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface40 : The relative matrices do not match
+[2016.02.02-02.42.56:011][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface41 : The relative matrices do not match
+[2016.02.02-02.42.56:012][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface42 : The relative matrices do not match
+[2016.02.02-02.42.56:012][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster2) - Node Angel_One:AngleCache:polySurface46 : The relative matrices do not match
+[2016.02.02-02.42.56:013][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface8 : The relative matrices do not match
+[2016.02.02-02.42.56:013][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface9 : The relative matrices do not match
+[2016.02.02-02.42.56:013][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface14 : The relative matrices do not match
+[2016.02.02-02.42.56:014][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface23 : The relative matrices do not match
+[2016.02.02-02.42.56:014][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface24 : The relative matrices do not match
+[2016.02.02-02.42.56:015][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface25 : The relative matrices do not match
+[2016.02.02-02.42.56:015][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface26 : The relative matrices do not match
+[2016.02.02-02.42.56:015][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface27 : The relative matrices do not match
+[2016.02.02-02.42.56:016][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface28 : The relative matrices do not match
+[2016.02.02-02.42.56:016][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface29 : The relative matrices do not match
+[2016.02.02-02.42.56:017][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface30 : The relative matrices do not match
+[2016.02.02-02.42.56:017][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface31 : The relative matrices do not match
+[2016.02.02-02.42.56:017][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface38 : The relative matrices do not match
+[2016.02.02-02.42.56:018][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface39 : The relative matrices do not match
+[2016.02.02-02.42.56:018][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface40 : The relative matrices do not match
+[2016.02.02-02.42.56:018][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface41 : The relative matrices do not match
+[2016.02.02-02.42.56:018][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface42 : The relative matrices do not match
+[2016.02.02-02.42.56:019][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster3) - Node Angel_One:AngleCache:polySurface46 : The relative matrices do not match
+[2016.02.02-02.42.56:019][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface8 : The relative matrices do not match
+[2016.02.02-02.42.56:020][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface9 : The relative matrices do not match
+[2016.02.02-02.42.56:020][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface14 : The relative matrices do not match
+[2016.02.02-02.42.56:020][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface23 : The relative matrices do not match
+[2016.02.02-02.42.56:021][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface24 : The relative matrices do not match
+[2016.02.02-02.42.56:021][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface25 : The relative matrices do not match
+[2016.02.02-02.42.56:022][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface26 : The relative matrices do not match
+[2016.02.02-02.42.56:022][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface27 : The relative matrices do not match
+[2016.02.02-02.42.56:023][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface28 : The relative matrices do not match
+[2016.02.02-02.42.56:023][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface29 : The relative matrices do not match
+[2016.02.02-02.42.56:024][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface30 : The relative matrices do not match
+[2016.02.02-02.42.56:024][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface31 : The relative matrices do not match
+[2016.02.02-02.42.56:025][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface38 : The relative matrices do not match
+[2016.02.02-02.42.56:025][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface39 : The relative matrices do not match
+[2016.02.02-02.42.56:025][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface40 : The relative matrices do not match
+[2016.02.02-02.42.56:025][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface41 : The relative matrices do not match
+[2016.02.02-02.42.56:026][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface42 : The relative matrices do not match
+[2016.02.02-02.42.56:026][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster4) - Node Angel_One:AngleCache:polySurface46 : The relative matrices do not match
+[2016.02.02-02.42.56:026][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface8 : The relative matrices do not match
+[2016.02.02-02.42.56:027][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface9 : The relative matrices do not match
+[2016.02.02-02.42.56:027][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface14 : The relative matrices do not match
+[2016.02.02-02.42.56:028][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface23 : The relative matrices do not match
+[2016.02.02-02.42.56:028][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface24 : The relative matrices do not match
+[2016.02.02-02.42.56:028][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface25 : The relative matrices do not match
+[2016.02.02-02.42.56:029][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface26 : The relative matrices do not match
+[2016.02.02-02.42.56:029][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface27 : The relative matrices do not match
+[2016.02.02-02.42.56:030][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface28 : The relative matrices do not match
+[2016.02.02-02.42.56:030][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface29 : The relative matrices do not match
+[2016.02.02-02.42.56:030][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface30 : The relative matrices do not match
+[2016.02.02-02.42.56:031][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface31 : The relative matrices do not match
+[2016.02.02-02.42.56:031][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface38 : The relative matrices do not match
+[2016.02.02-02.42.56:031][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface39 : The relative matrices do not match
+[2016.02.02-02.42.56:032][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface40 : The relative matrices do not match
+[2016.02.02-02.42.56:032][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface41 : The relative matrices do not match
+[2016.02.02-02.42.56:032][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface42 : The relative matrices do not match
+[2016.02.02-02.42.56:033][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster5) - Node Angel_One:AngleCache:polySurface46 : The relative matrices do not match
+[2016.02.02-02.42.56:033][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface8 : The relative matrices do not match
+[2016.02.02-02.42.56:034][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface9 : The relative matrices do not match
+[2016.02.02-02.42.56:034][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface14 : The relative matrices do not match
+[2016.02.02-02.42.56:034][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface23 : The relative matrices do not match
+[2016.02.02-02.42.56:035][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface24 : The relative matrices do not match
+[2016.02.02-02.42.56:035][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface25 : The relative matrices do not match
+[2016.02.02-02.42.56:036][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface26 : The relative matrices do not match
+[2016.02.02-02.42.56:036][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface27 : The relative matrices do not match
+[2016.02.02-02.42.56:037][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface28 : The relative matrices do not match
+[2016.02.02-02.42.56:037][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface29 : The relative matrices do not match
+[2016.02.02-02.42.56:037][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface30 : The relative matrices do not match
+[2016.02.02-02.42.56:038][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface31 : The relative matrices do not match
+[2016.02.02-02.42.56:038][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface38 : The relative matrices do not match
+[2016.02.02-02.42.56:039][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface39 : The relative matrices do not match
+[2016.02.02-02.42.56:039][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface40 : The relative matrices do not match
+[2016.02.02-02.42.56:039][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface41 : The relative matrices do not match
+[2016.02.02-02.42.56:040][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface42 : The relative matrices do not match
+[2016.02.02-02.42.56:040][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster6) - Node Angel_One:AngleCache:polySurface46 : The relative matrices do not match
+[2016.02.02-02.42.56:041][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface8 : The relative matrices do not match
+[2016.02.02-02.42.56:041][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface9 : The relative matrices do not match
+[2016.02.02-02.42.56:042][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface14 : The relative matrices do not match
+[2016.02.02-02.42.56:042][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface23 : The relative matrices do not match
+[2016.02.02-02.42.56:043][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface24 : The relative matrices do not match
+[2016.02.02-02.42.56:043][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface25 : The relative matrices do not match
+[2016.02.02-02.42.56:044][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface26 : The relative matrices do not match
+[2016.02.02-02.42.56:044][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface27 : The relative matrices do not match
+[2016.02.02-02.42.56:045][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface28 : The relative matrices do not match
+[2016.02.02-02.42.56:045][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface29 : The relative matrices do not match
+[2016.02.02-02.42.56:045][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface30 : The relative matrices do not match
+[2016.02.02-02.42.56:046][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface31 : The relative matrices do not match
+[2016.02.02-02.42.56:046][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface38 : The relative matrices do not match
+[2016.02.02-02.42.56:047][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface39 : The relative matrices do not match
+[2016.02.02-02.42.56:047][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface40 : The relative matrices do not match
+[2016.02.02-02.42.56:047][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface41 : The relative matrices do not match
+[2016.02.02-02.42.56:047][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface42 : The relative matrices do not match
+[2016.02.02-02.42.56:048][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster7) - Node Angel_One:AngleCache:polySurface46 : The relative matrices do not match
+[2016.02.02-02.42.56:048][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface8 : The relative matrices do not match
+[2016.02.02-02.42.56:049][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface9 : The relative matrices do not match
+[2016.02.02-02.42.56:049][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface14 : The relative matrices do not match
+[2016.02.02-02.42.56:049][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface23 : The relative matrices do not match
+[2016.02.02-02.42.56:050][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface24 : The relative matrices do not match
+[2016.02.02-02.42.56:050][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface25 : The relative matrices do not match
+[2016.02.02-02.42.56:051][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface26 : The relative matrices do not match
+[2016.02.02-02.42.56:051][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface27 : The relative matrices do not match
+[2016.02.02-02.42.56:052][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface28 : The relative matrices do not match
+[2016.02.02-02.42.56:052][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface29 : The relative matrices do not match
+[2016.02.02-02.42.56:053][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface30 : The relative matrices do not match
+[2016.02.02-02.42.56:053][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface31 : The relative matrices do not match
+[2016.02.02-02.42.56:053][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface38 : The relative matrices do not match
+[2016.02.02-02.42.56:054][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface39 : The relative matrices do not match
+[2016.02.02-02.42.56:054][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface40 : The relative matrices do not match
+[2016.02.02-02.42.56:055][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface41 : The relative matrices do not match
+[2016.02.02-02.42.56:055][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface42 : The relative matrices do not match
+[2016.02.02-02.42.56:055][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster8) - Node Angel_One:AngleCache:polySurface46 : The relative matrices do not match
+[2016.02.02-02.42.56:056][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface8 : The relative matrices do not match
+[2016.02.02-02.42.56:057][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface9 : The relative matrices do not match
+[2016.02.02-02.42.56:058][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface14 : The relative matrices do not match
+[2016.02.02-02.42.56:058][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface23 : The relative matrices do not match
+[2016.02.02-02.42.56:059][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface24 : The relative matrices do not match
+[2016.02.02-02.42.56:059][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface25 : The relative matrices do not match
+[2016.02.02-02.42.56:060][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface26 : The relative matrices do not match
+[2016.02.02-02.42.56:060][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface27 : The relative matrices do not match
+[2016.02.02-02.42.56:061][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface28 : The relative matrices do not match
+[2016.02.02-02.42.56:061][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface29 : The relative matrices do not match
+[2016.02.02-02.42.56:062][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface30 : The relative matrices do not match
+[2016.02.02-02.42.56:062][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface31 : The relative matrices do not match
+[2016.02.02-02.42.56:063][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface38 : The relative matrices do not match
+[2016.02.02-02.42.56:063][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface39 : The relative matrices do not match
+[2016.02.02-02.42.56:064][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface40 : The relative matrices do not match
+[2016.02.02-02.42.56:064][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface41 : The relative matrices do not match
+[2016.02.02-02.42.56:065][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface42 : The relative matrices do not match
+[2016.02.02-02.42.56:065][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster9) - Node Angel_One:AngleCache:polySurface46 : The relative matrices do not match
+[2016.02.02-02.42.56:065][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface8 : The relative matrices do not match
+[2016.02.02-02.42.56:066][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface9 : The relative matrices do not match
+[2016.02.02-02.42.56:067][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface14 : The relative matrices do not match
+[2016.02.02-02.42.56:067][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface23 : The relative matrices do not match
+[2016.02.02-02.42.56:068][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface24 : The relative matrices do not match
+[2016.02.02-02.42.56:068][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface25 : The relative matrices do not match
+[2016.02.02-02.42.56:069][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface26 : The relative matrices do not match
+[2016.02.02-02.42.56:069][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface27 : The relative matrices do not match
+[2016.02.02-02.42.56:070][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface28 : The relative matrices do not match
+[2016.02.02-02.42.56:071][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface29 : The relative matrices do not match
+[2016.02.02-02.42.56:071][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface30 : The relative matrices do not match
+[2016.02.02-02.42.56:072][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface31 : The relative matrices do not match
+[2016.02.02-02.42.56:072][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface38 : The relative matrices do not match
+[2016.02.02-02.42.56:073][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface39 : The relative matrices do not match
+[2016.02.02-02.42.56:073][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface40 : The relative matrices do not match
+[2016.02.02-02.42.56:074][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface41 : The relative matrices do not match
+[2016.02.02-02.42.56:074][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface42 : The relative matrices do not match
+[2016.02.02-02.42.56:075][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster10) - Node Angel_One:AngleCache:polySurface46 : The relative matrices do not match
+[2016.02.02-02.42.56:075][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface8 : The relative matrices do not match
+[2016.02.02-02.42.56:076][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface9 : The relative matrices do not match
+[2016.02.02-02.42.56:076][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface14 : The relative matrices do not match
+[2016.02.02-02.42.56:077][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface23 : The relative matrices do not match
+[2016.02.02-02.42.56:078][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface24 : The relative matrices do not match
+[2016.02.02-02.42.56:078][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface25 : The relative matrices do not match
+[2016.02.02-02.42.56:079][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface26 : The relative matrices do not match
+[2016.02.02-02.42.56:079][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface27 : The relative matrices do not match
+[2016.02.02-02.42.56:080][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface28 : The relative matrices do not match
+[2016.02.02-02.42.56:080][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface29 : The relative matrices do not match
+[2016.02.02-02.42.56:081][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface30 : The relative matrices do not match
+[2016.02.02-02.42.56:082][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface31 : The relative matrices do not match
+[2016.02.02-02.42.56:082][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface38 : The relative matrices do not match
+[2016.02.02-02.42.56:082][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface39 : The relative matrices do not match
+[2016.02.02-02.42.56:083][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface40 : The relative matrices do not match
+[2016.02.02-02.42.56:083][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface41 : The relative matrices do not match
+[2016.02.02-02.42.56:084][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface42 : The relative matrices do not match
+[2016.02.02-02.42.56:084][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster11) - Node Angel_One:AngleCache:polySurface46 : The relative matrices do not match
+[2016.02.02-02.42.56:085][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface8 : The relative matrices do not match
+[2016.02.02-02.42.56:085][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface9 : The relative matrices do not match
+[2016.02.02-02.42.56:086][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface14 : The relative matrices do not match
+[2016.02.02-02.42.56:086][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface23 : The relative matrices do not match
+[2016.02.02-02.42.56:087][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface24 : The relative matrices do not match
+[2016.02.02-02.42.56:088][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface25 : The relative matrices do not match
+[2016.02.02-02.42.56:088][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface26 : The relative matrices do not match
+[2016.02.02-02.42.56:089][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface27 : The relative matrices do not match
+[2016.02.02-02.42.56:090][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface28 : The relative matrices do not match
+[2016.02.02-02.42.56:091][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface29 : The relative matrices do not match
+[2016.02.02-02.42.56:091][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface30 : The relative matrices do not match
+[2016.02.02-02.42.56:092][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface31 : The relative matrices do not match
+[2016.02.02-02.42.56:092][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface38 : The relative matrices do not match
+[2016.02.02-02.42.56:093][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface39 : The relative matrices do not match
+[2016.02.02-02.42.56:093][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface40 : The relative matrices do not match
+[2016.02.02-02.42.56:093][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface41 : The relative matrices do not match
+[2016.02.02-02.42.56:094][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface42 : The relative matrices do not match
+[2016.02.02-02.42.56:094][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster12) - Node Angel_One:AngleCache:polySurface46 : The relative matrices do not match
+[2016.02.02-02.42.56:095][713]LogFbx: Valid bind pose for Pose (Angel_One:skinCluster13) - Angel_One:AngleCache:polySurface8
+[2016.02.02-02.42.56:095][713]LogFbx: Valid bind pose for Pose (Angel_One:skinCluster14) - Angel_One:AngleCache:polySurface8
+[2016.02.02-02.42.56:096][713]LogFbx: Valid bind pose for Pose (Angel_One:skinCluster15) - Angel_One:AngleCache:polySurface8
+[2016.02.02-02.42.56:096][713]LogFbx: Valid bind pose for Pose (Angel_One:skinCluster16) - Angel_One:AngleCache:polySurface8
+[2016.02.02-02.42.56:100][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface8 : The relative matrices do not match
+[2016.02.02-02.42.56:103][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface9 : The relative matrices do not match
+[2016.02.02-02.42.56:107][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface14 : The relative matrices do not match
+[2016.02.02-02.42.56:110][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface23 : The relative matrices do not match
+[2016.02.02-02.42.56:114][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface24 : The relative matrices do not match
+[2016.02.02-02.42.56:117][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface25 : The relative matrices do not match
+[2016.02.02-02.42.56:120][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface26 : The relative matrices do not match
+[2016.02.02-02.42.56:124][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface27 : The relative matrices do not match
+[2016.02.02-02.42.56:127][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface28 : The relative matrices do not match
+[2016.02.02-02.42.56:130][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface29 : The relative matrices do not match
+[2016.02.02-02.42.56:134][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface30 : The relative matrices do not match
+[2016.02.02-02.42.56:137][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface31 : The relative matrices do not match
+[2016.02.02-02.42.56:140][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface38 : The relative matrices do not match
+[2016.02.02-02.42.56:142][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface39 : The relative matrices do not match
+[2016.02.02-02.42.56:144][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface40 : The relative matrices do not match
+[2016.02.02-02.42.56:147][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface41 : The relative matrices do not match
+[2016.02.02-02.42.56:149][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface42 : The relative matrices do not match
+[2016.02.02-02.42.56:151][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster17) - Node Angel_One:AngleCache:polySurface46 : The relative matrices do not match
+[2016.02.02-02.42.56:155][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface8 : The relative matrices do not match
+[2016.02.02-02.42.56:159][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface9 : The relative matrices do not match
+[2016.02.02-02.42.56:163][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface14 : The relative matrices do not match
+[2016.02.02-02.42.56:167][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface23 : The relative matrices do not match
+[2016.02.02-02.42.56:171][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface24 : The relative matrices do not match
+[2016.02.02-02.42.56:175][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface25 : The relative matrices do not match
+[2016.02.02-02.42.56:178][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface26 : The relative matrices do not match
+[2016.02.02-02.42.56:182][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface27 : The relative matrices do not match
+[2016.02.02-02.42.56:185][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface28 : The relative matrices do not match
+[2016.02.02-02.42.56:190][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface29 : The relative matrices do not match
+[2016.02.02-02.42.56:193][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface30 : The relative matrices do not match
+[2016.02.02-02.42.56:197][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface31 : The relative matrices do not match
+[2016.02.02-02.42.56:199][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface38 : The relative matrices do not match
+[2016.02.02-02.42.56:202][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface39 : The relative matrices do not match
+[2016.02.02-02.42.56:205][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface40 : The relative matrices do not match
+[2016.02.02-02.42.56:208][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface41 : The relative matrices do not match
+[2016.02.02-02.42.56:210][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface42 : The relative matrices do not match
+[2016.02.02-02.42.56:213][713]LogFbx:Warning: Not valid bind pose for Pose (Angel_One:skinCluster18) - Node Angel_One:AngleCache:polySurface46 : The relative matrices do not match
+[2016.02.02-02.42.56:272][713]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1'
+[2016.02.02-02.42.56:298][713]LogMaterial: Missing cached shader map for material blinn1, compiling. 
+[2016.02.02-02.42.56:411][713]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/lambert1'
+[2016.02.02-02.42.56:411][713]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/lambert1'
+[2016.02.02-02.42.56:545][713]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.02.02-02.42.56:556][713]LogFbx: Triangulating skeletal mesh Angel_One:AngleCache:polySurface28
+[2016.02.02-02.42.57:226][713]LogFbx: Triangulating skeletal mesh Angel_One:AngleCache:polySurface29
+[2016.02.02-02.42.57:399][713]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2'
+[2016.02.02-02.42.57:445][713]LogMaterial: Missing cached shader map for material blinn2, compiling. 
+[2016.02.02-02.42.57:497][713]LogFbx: Triangulating skeletal mesh Angel_One:AngleCache:polySurface30
+[2016.02.02-02.43.00:447][713]LogFbx: Triangulating skeletal mesh Angel_One:AngleCache:polySurface31
+[2016.02.02-02.43.03:229][713]LogFbx: Triangulating skeletal mesh Angel_One:AngleCache:polySurface38
+[2016.02.02-02.43.03:478][713]LogFbx:Warning: Bones digested - 90  Depth of hierarchy - 13
+[2016.02.02-02.43.03:719][713]LogSkeletalMesh: Chunk 0: 6160 rigid vertices, 689 soft vertices, 56 active bones
+[2016.02.02-02.43.03:719][713]LogSkeletalMesh: Chunk 1: 878 rigid vertices, 0 soft vertices, 2 active bones
+[2016.02.02-02.43.03:720][713]LogSkeletalMesh: Chunk 2: 1709 rigid vertices, 9291 soft vertices, 34 active bones
+[2016.02.02-02.43.03:785][713]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 7838 triangles
+[2016.02.02-02.43.03:785][713]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 1520 triangles
+[2016.02.02-02.43.03:785][713]LogSkeletalMesh: Section 2: Material=2, Chunk=2, 20352 triangles
+[2016.02.02-02.43.03:795][713]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/Mesh_Angle_PhysicsAsset'
+[2016.02.02-02.43.03:795][713]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/Mesh_Angle_PhysicsAsset'
+[2016.02.02-02.43.03:795][713]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/My/ExampleCollection/MeshCollection/Human/Angle/Mesh_Angle_PhysicsAsset.Mesh_Angle_PhysicsAsset'
+[2016.02.02-02.43.03:807][713]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/Mesh_Angle_Skeleton'
+[2016.02.02-02.43.03:807][713]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/MeshCollection/Human/Angle/Mesh_Angle_Skeleton'
+[2016.02.02-02.43.03:807][713]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/My/ExampleCollection/MeshCollection/Human/Angle/Mesh_Angle_Skeleton.Mesh_Angle_Skeleton'
+[2016.02.02-02.43.03:920][714]LogMaterial:Warning: Material /Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn1.blinn1 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.02.02-02.43.03:924][714]LogMaterial: Missing cached shader map for material blinn1, compiling. 
+[2016.02.02-02.43.03:933][714]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.02-02.43.03:933][714]LogMaterial:Warning: Material /Game/My/ExampleCollection/MeshCollection/Human/Angle/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.02.02-02.43.03:944][714]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.02.02-02.43.03:954][714]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.02-02.43.03:954][714]LogMaterial:Warning: Material /Game/My/ExampleCollection/MeshCollection/Human/Angle/blinn2.blinn2 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.02.02-02.43.04:052][714]LogMaterial: Missing cached shader map for material blinn2, compiling. 
+[2016.02.02-02.43.04:061][714]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.02-02.43.13:455][ 47]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MyAngle)
+[2016.02.02-02.43.15:413][115]Cmd: DELETE
+[2016.02.02-02.43.15:413][115]Cmd: ACTOR DELETE
+[2016.02.02-02.43.15:414][115]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.02.02-02.43.15:440][115]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2016.02.02-02.43.36:840][754]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.02.02-02.43.37:355][754]LogRenderer: Reallocating scene render targets to support 872x888 (Frame:5376).
+[2016.02.02-02.43.48:170][364]LogMaterial:Warning: Material /Game/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngleBody.Mat_MyAngleBody needed to have new flag set bUsedWithSkeletalMesh !
+[2016.02.02-02.43.48:205][364]LogMaterial: Missing cached shader map for material Mat_MyAngleBody, compiling. 
+[2016.02.02-02.43.48:216][364]LogMaterial: 0.000161 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.02-02.43.51:497][475]LogMaterial:Warning: Material /Game/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngleWing.Mat_MyAngleWing needed to have new flag set bUsedWithSkeletalMesh !
+[2016.02.02-02.43.51:515][475]LogMaterial: Missing cached shader map for material Mat_MyAngleWing, compiling. 
+[2016.02.02-02.43.51:526][475]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.02-02.44.34:158][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/TestMap/MatTestMap" FILE="E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.02-02.44.34:438][831]LogSavePackage: Save=214.614517ms
+[2016.02.02-02.44.34:438][831]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/MatTestMap3381039543D21E7562F13F91DBC62C25.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap'
+[2016.02.02-02.44.34:440][831]LogSavePackage: Total save time: 270.406809ms
+[2016.02.02-02.44.34:440][831]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/TestMap/MatTestMap.umap
+[2016.02.02-02.44.34:474][831]LogFileHelpers: Saving map 'MatTestMap' took 0.378
+[2016.02.02-02.44.34:530][831]LogSavePackage: Save=15.732727ms
+[2016.02.02-02.44.34:530][831]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_MyAngleBody369AAE494B86E0560B77549CB4DB197E.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngleBody.uasset'
+[2016.02.02-02.44.34:531][831]LogSavePackage: Total save time: 34.093883ms
+[2016.02.02-02.44.34:531][831]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngleBody.uasset
+[2016.02.02-02.44.34:582][831]LogSavePackage: Save=13.505859ms
+[2016.02.02-02.44.34:582][831]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mat_MyAngleWing976ED7C94A79C3EA2B59FA92038E7E0F.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngleWing.uasset'
+[2016.02.02-02.44.34:584][831]LogSavePackage: Total save time: 26.509129ms
+[2016.02.02-02.44.34:584][831]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/MatMyAngle/Mat_MyAngleWing.uasset
+[2016.02.02-02.44.34:623][831]LogSavePackage: Save=12.954835ms
+[2016.02.02-02.44.34:623][831]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/blinn1EAEFDCCB41CC46738EBD989F399E7B29.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/blinn1.uasset'
+[2016.02.02-02.44.34:625][831]LogSavePackage: Total save time: 14.936343ms
+[2016.02.02-02.44.34:625][831]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/blinn1.uasset
+[2016.02.02-02.44.34:660][831]LogSavePackage: Save=12.612931ms
+[2016.02.02-02.44.34:660][831]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/blinn2AAFB5E104C2C00FD3722F78CB334A8A1.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/blinn2.uasset'
+[2016.02.02-02.44.34:661][831]LogSavePackage: Total save time: 14.231686ms
+[2016.02.02-02.44.34:661][831]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/blinn2.uasset
+[2016.02.02-02.44.34:728][831]LogSavePackage: Save=47.650097ms
+[2016.02.02-02.44.34:728][831]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mesh_AngleFDB926C54D79AF82E48EBAB449983850.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/Mesh_Angle.uasset'
+[2016.02.02-02.44.34:730][831]LogSavePackage: Total save time: 49.380466ms
+[2016.02.02-02.44.34:730][831]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/Mesh_Angle.uasset
+[2016.02.02-02.44.34:765][831]LogSavePackage: Save=12.573160ms
+[2016.02.02-02.44.34:765][831]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/lambert19CE3DE564EF01177C382B5919B50AE1F.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/lambert1.uasset'
+[2016.02.02-02.44.34:767][831]LogSavePackage: Total save time: 14.265358ms
+[2016.02.02-02.44.34:767][831]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/lambert1.uasset
+[2016.02.02-02.44.34:789][831]LogSavePackage: Save=14.001717ms
+[2016.02.02-02.44.34:789][831]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mesh_Angle_PhysicsAsset40BF77774E9A74046C0FF09BBDE93E6E.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/Mesh_Angle_PhysicsAsset.uasset'
+[2016.02.02-02.44.34:791][831]LogSavePackage: Total save time: 15.821252ms
+[2016.02.02-02.44.34:791][831]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/Mesh_Angle_PhysicsAsset.uasset
+[2016.02.02-02.44.34:802][831]LogSavePackage: Save=3.704176ms
+[2016.02.02-02.44.34:802][831]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Mesh_Angle_SkeletonC1C015AF4679E5451DA50689FEF33BEF.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/Mesh_Angle_Skeleton.uasset'
+[2016.02.02-02.44.34:804][831]LogSavePackage: Total save time: 5.404714ms
+[2016.02.02-02.44.34:804][831]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/MeshCollection/Human/Angle/Mesh_Angle_Skeleton.uasset
+[2016.02.02-02.46.11:974][941]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/chenxinghui/Desktop/MayaOutput/Angle/AngleAnim/Anim_AngleIdle.fbx)
+[2016.02.02-02.46.11:984][941]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.02.02-02.46.11:984][941]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.02.02-02.46.11:984][941]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.02.02-02.46.11:984][941]LogFbx: ItemName: NodeAttribute, ItemCount : 90
+[2016.02.02-02.46.11:984][941]LogFbx: ItemName: Model, ItemCount : 90
+[2016.02.02-02.46.11:984][941]LogFbx: ItemName: AnimationCurveNode, ItemCount : 450
+[2016.02.02-02.46.11:984][941]LogFbx: ItemName: Container, ItemCount : 7
+[2016.02.02-02.46.11:984][941]LogFbx: ItemName: AnimationCurve, ItemCount : 900
+[2016.02.02-02.46.12:052][941]LogFbx: Loading FBX Scene from C:/Users/chenxinghui/Desktop/MayaOutput/Angle/AngleAnim/Anim_AngleIdle.fbx
+[2016.02.02-02.46.12:514][941]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.02-02.46.27:528][941]LogFbx: Loading FBX Scene from C:/Users/chenxinghui/Desktop/MayaOutput/Angle/AngleAnim/Anim_AngleIdle.fbx
+[2016.02.02-02.46.27:990][941]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(0) root
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(1) pelvis
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(2) spine_01
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(3) spine_02
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(4) spine_03
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(5) clavicle_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(6) upperarm_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(7) lowerarm_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(8) hand_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(9) index_metacarpal_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(10) index_01_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(11) index_02_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(12) index_03_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(13) middle_metacarpal_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(14) middle_01_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(15) middle_02_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(16) middle_03_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(17) pinky_metacarpal_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(18) pinky_01_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(19) pinky_02_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(20) pinky_03_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(21) ring_metacarpal_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(22) ring_01_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(23) ring_02_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(24) ring_03_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(25) thumb_01_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(26) thumb_02_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(27) thumb_03_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(28) weapon_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(29) lowerarm_twist_01_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(30) upperarm_twist_01_l
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(31) clavicle_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(32) upperarm_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(33) lowerarm_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(34) hand_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(35) index_metacarpal_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(36) index_01_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(37) index_02_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(38) index_03_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(39) middle_metacarpal_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(40) middle_01_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(41) middle_02_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(42) middle_03_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(43) pinky_metacarpal_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(44) pinky_01_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(45) pinky_02_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(46) pinky_03_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(47) ring_metacarpal_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(48) ring_01_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(49) ring_02_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(50) ring_03_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(51) thumb_01_r
+[2016.02.02-02.46.28:140][941]LogFbx: SortedLinks :(52) thumb_02_r
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(53) thumb_03_r
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(54) weapon_r
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(55) lowerarm_twist_01_r
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(56) upperarm_twist_01_r
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(57) neck_01
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(58) neck_02
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(59) head
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(60) thigh_l
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(61) calf_l
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(62) calf_twist_01_l
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(63) foot_l
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(64) thigh_twist_01_l
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(65) thigh_r
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(66) calf_r
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(67) calf_twist_01_r
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(68) foot_r
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(69) thigh_twist_01_r
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(70) wings_shld_l_01
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(71) wings_shld_l_02
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(72) wings_shld_l_03
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(73) wings_elbow_01_l_01
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(74) wings_elbow_01_l_02
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(75) wings_shld_l_04
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(76) wings_shld_l_05
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(77) wings_shld_l_06
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(78) wings_elbow_02_l_01
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(79) wings_elbow_02_l_02
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(80) wings_shld_r_01
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(81) wings_shld_r_02
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(82) wings_shld_r_03
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(83) wings_elbow_01_r_01
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(84) wings_elbow_01_r_02
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(85) wings_shld_r_04
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(86) wings_shld_r_05
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(87) wings_shld_r_06
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(88) wings_elbow_02_r_01
+[2016.02.02-02.46.28:141][941]LogFbx: SortedLinks :(89) wings_elbow_02_r_02
+[2016.02.02-02.46.28:172][941]LogFbx: Parsing AnimStack Take 001
+[2016.02.02-02.46.28:299][941]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/AnimCollection/Human/Angle/BaseAnim/Anim_AngleIdle'
+[2016.02.02-02.46.28:299][941]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/AnimCollection/Human/Angle/BaseAnim/Anim_AngleIdle'
+[2016.02.02-02.46.28:299][941]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/My/ExampleCollection/AnimCollection/Human/Angle/BaseAnim/Anim_AngleIdle.Anim_AngleIdle'
+[2016.02.02-02.46.33:500][ 99]LogRenderer: Reallocating scene render targets to support 876x924 (Frame:23729).
+[2016.02.02-02.46.33:500][ 99]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.02.02-02.47.14:070][642]LogEditorFactories: Performing atomic reimport of [C:/Users/chenxinghui/Desktop/MayaOutput/Angle/AngleAnim/Anim_AngleIdle.fbx]
+[2016.02.02-02.47.14:191][642]LogFbx: Loading FBX Scene from C:/Users/chenxinghui/Desktop/MayaOutput/Angle/AngleAnim/Anim_AngleIdle.fbx
+[2016.02.02-02.47.14:677][642]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.02-02.47.14:735][642]LogFbx: Parsing AnimStack Take 001
+[2016.02.02-02.47.16:743][642]LogEditorFactories: -- imported successfully
+[2016.02.02-02.47.20:933][853]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.02.02-02.47.28:619][383]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002961AFC0
+[2016.02.02-02.47.28:619][383]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000611AF420
+[2016.02.02-02.47.28:619][383]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001122DE40
+[2016.02.02-02.47.28:619][383]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005A90CE00
+[2016.02.02-02.47.28:621][383]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012BD0720
+[2016.02.02-02.47.28:622][383]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012BD1440
+[2016.02.02-02.47.35:904][491]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/chenxinghui/Desktop/MayaOutput/Angle/AngleAnim/Anim_AngleIdle_60fps.fbx)
+[2016.02.02-02.47.35:915][491]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.02.02-02.47.35:915][491]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.02.02-02.47.35:915][491]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.02.02-02.47.35:915][491]LogFbx: ItemName: NodeAttribute, ItemCount : 90
+[2016.02.02-02.47.35:915][491]LogFbx: ItemName: Model, ItemCount : 90
+[2016.02.02-02.47.35:915][491]LogFbx: ItemName: AnimationCurveNode, ItemCount : 450
+[2016.02.02-02.47.35:915][491]LogFbx: ItemName: Container, ItemCount : 7
+[2016.02.02-02.47.35:915][491]LogFbx: ItemName: AnimationCurve, ItemCount : 900
+[2016.02.02-02.47.35:982][491]LogFbx: Loading FBX Scene from C:/Users/chenxinghui/Desktop/MayaOutput/Angle/AngleAnim/Anim_AngleIdle_60fps.fbx
+[2016.02.02-02.47.36:448][491]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.02-02.47.39:518][491]LogFbx: Loading FBX Scene from C:/Users/chenxinghui/Desktop/MayaOutput/Angle/AngleAnim/Anim_AngleIdle_60fps.fbx
+[2016.02.02-02.47.39:995][491]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(0) root
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(1) pelvis
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(2) spine_01
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(3) spine_02
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(4) spine_03
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(5) clavicle_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(6) upperarm_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(7) lowerarm_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(8) hand_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(9) index_metacarpal_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(10) index_01_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(11) index_02_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(12) index_03_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(13) middle_metacarpal_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(14) middle_01_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(15) middle_02_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(16) middle_03_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(17) pinky_metacarpal_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(18) pinky_01_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(19) pinky_02_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(20) pinky_03_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(21) ring_metacarpal_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(22) ring_01_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(23) ring_02_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(24) ring_03_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(25) thumb_01_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(26) thumb_02_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(27) thumb_03_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(28) weapon_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(29) lowerarm_twist_01_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(30) upperarm_twist_01_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(31) clavicle_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(32) upperarm_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(33) lowerarm_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(34) hand_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(35) index_metacarpal_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(36) index_01_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(37) index_02_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(38) index_03_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(39) middle_metacarpal_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(40) middle_01_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(41) middle_02_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(42) middle_03_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(43) pinky_metacarpal_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(44) pinky_01_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(45) pinky_02_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(46) pinky_03_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(47) ring_metacarpal_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(48) ring_01_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(49) ring_02_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(50) ring_03_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(51) thumb_01_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(52) thumb_02_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(53) thumb_03_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(54) weapon_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(55) lowerarm_twist_01_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(56) upperarm_twist_01_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(57) neck_01
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(58) neck_02
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(59) head
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(60) thigh_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(61) calf_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(62) calf_twist_01_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(63) foot_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(64) thigh_twist_01_l
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(65) thigh_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(66) calf_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(67) calf_twist_01_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(68) foot_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(69) thigh_twist_01_r
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(70) wings_shld_l_01
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(71) wings_shld_l_02
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(72) wings_shld_l_03
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(73) wings_elbow_01_l_01
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(74) wings_elbow_01_l_02
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(75) wings_shld_l_04
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(76) wings_shld_l_05
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(77) wings_shld_l_06
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(78) wings_elbow_02_l_01
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(79) wings_elbow_02_l_02
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(80) wings_shld_r_01
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(81) wings_shld_r_02
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(82) wings_shld_r_03
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(83) wings_elbow_01_r_01
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(84) wings_elbow_01_r_02
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(85) wings_shld_r_04
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(86) wings_shld_r_05
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(87) wings_shld_r_06
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(88) wings_elbow_02_r_01
+[2016.02.02-02.47.40:047][491]LogFbx: SortedLinks :(89) wings_elbow_02_r_02
+[2016.02.02-02.47.40:056][491]LogFbx: Parsing AnimStack Take 001
+[2016.02.02-02.47.40:142][491]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/AnimCollection/Human/Angle/BaseAnim/Anim_AngleIdle_60fps'
+[2016.02.02-02.47.40:142][491]LogLinker:Warning: Can't find file '/Game/My/ExampleCollection/AnimCollection/Human/Angle/BaseAnim/Anim_AngleIdle_60fps'
+[2016.02.02-02.47.40:142][491]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/My/ExampleCollection/AnimCollection/Human/Angle/BaseAnim/Anim_AngleIdle_60fps.Anim_AngleIdle_60fps'
+[2016.02.02-02.47.45:069][562]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2016.02.02-02.47.45:158][562]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.02.02-02.50.04:230][661]LogSavePackage: Save=27.270552ms
+[2016.02.02-02.50.04:230][661]LogSavePackage: Moving 'E:/Unreal Work Space/ExampleCollection10/Saved/Anim_AngleIdle_60fps40BBF70745EE7BF62FF1669B1FE1AE5C.tmp' to 'E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/AnimCollection/Human/Angle/BaseAnim/Anim_AngleIdle_60fps.uasset'
+[2016.02.02-02.50.04:232][661]LogSavePackage: Total save time: 29.228006ms
+[2016.02.02-02.50.04:232][661]LogSavePackage:Display: Finished SavePackage E:/Unreal Work Space/ExampleCollection10/Content/My/ExampleCollection/AnimCollection/Human/Angle/BaseAnim/Anim_AngleIdle_60fps.uasset
+[2016.02.02-02.50.06:918][889]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003364B740
+[2016.02.02-02.50.06:919][889]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028D9EA20
+[2016.02.02-02.50.06:919][889]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028D91620
+[2016.02.02-02.50.07:014][889]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028D911C0
+[2016.02.02-02.50.07:213][890]Cmd: QUIT_EDITOR
+[2016.02.02-02.50.07:562][890]LogExit: Preparing to exit.
+[2016.02.02-02.50.08:415][890]LogExit: Editor shut down
+[2016.02.02-02.50.08:416][890]LogExit: Transaction tracking system shut down
+[2016.02.02-02.50.08:418][890]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C3BAB60
+[2016.02.02-02.50.08:418][890]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020D76340
+[2016.02.02-02.50.08:418][890]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003837F880
+[2016.02.02-02.50.08:418][890]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003841B560
+[2016.02.02-02.50.08:418][890]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003841B600
+[2016.02.02-02.50.08:419][890]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005A94F920
+[2016.02.02-02.50.08:594][890]LogExit: Object subsystem successfully closed.
+[2016.02.02-02.50.08:614][890]LogD3D11RHI: Shutdown
+[2016.02.02-02.50.08:614][890]LogD3D11RHI: CleanupD3DDevice
+[2016.02.02-02.50.08:689][890]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.02-02.50.08:699][890]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2016.02.02-02.50.08:699][890]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.02.02-02.50.08:699][890]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.02.02-02.50.08:699][890]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.02.02-02.50.08:699][890]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.02.02-02.50.08:699][890]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.02.02-02.50.08:699][890]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.02.02-02.50.08:699][890]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.02.02-02.50.08:700][890]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.02.02-02.50.09:669][890]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.02.02-02.50.09:669][890]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.02.02-02.50.09:669][890]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.02.02-02.50.09:669][890]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.02.02-02.50.09:669][890]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.02.02-02.50.09:669][890]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.02.02-02.50.09:669][890]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.02.02-02.50.09:669][890]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.02.02-02.50.09:669][890]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.02.02-02.50.09:669][890]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.02.02-02.50.09:669][890]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.02.02-02.50.09:669][890]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.02.02-02.50.09:669][890]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.02.02-02.50.09:669][890]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.02.02-02.50.09:669][890]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.02.02-02.50.09:669][890]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.02.02-02.50.09:669][890]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.02.02-02.50.09:670][890]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.02.02-02.50.09:670][890]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.02.02-02.50.09:670][890]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.02.02-02.50.09:670][890]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.02.02-02.50.09:670][890]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.02.02-02.50.09:670][890]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.02.02-02.50.09:671][890]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.02.02-02.50.09:671][890]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.02.02-02.50.09:671][890]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.02.02-02.50.09:671][890]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.02.02-02.50.09:671][890]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.02.02-02.50.09:671][890]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.02.02-02.50.09:671][890]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.02.02-02.50.09:671][890]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.02.02-02.50.09:671][890]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.02.02-02.50.09:672][890]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.02.02-02.50.09:672][890]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.02.02-02.50.09:672][890]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.02.02-02.50.09:672][890]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.02.02-02.50.09:672][890]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.02.02-02.50.09:672][890]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.02.02-02.50.09:672][890]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.02.02-02.50.09:672][890]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.02.02-02.50.09:672][890]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.02.02-02.50.09:672][890]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.02.02-02.50.09:672][890]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.02.02-02.50.09:672][890]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.02.02-02.50.09:672][890]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.02.02-02.50.09:672][890]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.02.02-02.50.09:672][890]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.02.02-02.50.09:672][890]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.02.02-02.50.09:672][890]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.02.02-02.50.09:673][890]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.02.02-02.50.09:708][890]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.02.02-02.50.09:708][890]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.02.02-02.50.09:709][890]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.02.02-02.50.09:709][890]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.02.02-02.50.09:709][890]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.02.02-02.50.09:709][890]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.02.02-02.50.09:709][890]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.02.02-02.50.09:709][890]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.02.02-02.50.09:729][890]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.02.02-02.50.09:729][890]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.02.02-02.50.09:729][890]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.02.02-02.50.09:729][890]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.02.02-02.50.09:729][890]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.02.02-02.50.09:729][890]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.02.02-02.50.09:729][890]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.02.02-02.50.09:730][890]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.02.02-02.50.09:730][890]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.02.02-02.50.09:730][890]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.02.02-02.50.09:730][890]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.02.02-02.50.09:730][890]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.02.02-02.50.09:730][890]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.02.02-02.50.09:730][890]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.02.02-02.50.09:730][890]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.02.02-02.50.09:730][890]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.02.02-02.50.09:730][890]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.02.02-02.50.09:730][890]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.02.02-02.50.09:730][890]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.02.02-02.50.09:730][890]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.02.02-02.50.09:730][890]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.02.02-02.50.09:730][890]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.02.02-02.50.09:730][890]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.02.02-02.50.09:730][890]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.02.02-02.50.09:731][890]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.02.02-02.50.09:732][890]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.02.02-02.50.09:902][890]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.02.02-02.50.09:903][890]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.02.02-02.50.09:903][890]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.02.02-02.50.10:003][890]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.02.02-02.50.10:003][890]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.02.02-02.50.10:003][890]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.02.02-02.50.10:006][890]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.02.02-02.50.10:006][890]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.02.02-02.50.10:007][890]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.02.02-02.50.10:007][890]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.02.02-02.50.10:007][890]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.02.02-02.50.10:007][890]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.02.02-02.50.10:007][890]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.02.02-02.50.10:007][890]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.02.02-02.50.10:007][890]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.02.02-02.50.10:007][890]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.02.02-02.50.10:007][890]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.02.02-02.50.10:007][890]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.02.02-02.50.10:007][890]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.02.02-02.50.10:007][890]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.02.02-02.50.10:007][890]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.02.02-02.50.10:007][890]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.02.02-02.50.10:009][890]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.02.02-02.50.10:009][890]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.02.02-02.50.10:009][890]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.02.02-02.50.10:009][890]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.02.02-02.50.10:009][890]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.02.02-02.50.10:009][890]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.02.02-02.50.10:009][890]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.02.02-02.50.10:009][890]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.02.02-02.50.10:009][890]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.02.02-02.50.10:009][890]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.02.02-02.50.10:055][890]LogDerivedDataCache: Shutdown
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.02.02-02.50.10:055][890]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.02.02-02.50.13:056][890]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.02.02-02.50.13:056][890]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.02.02-02.50.13:056][890]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.02.02-02.50.13:056][890]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.02-02.50.13:056][890]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.02-02.50.13:056][890]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.02-02.50.13:056][890]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.02-02.50.13:058][890]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.02-02.50.13:058][890]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.02-02.50.13:058][890]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.02-02.50.13:058][890]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.02-02.50.13:058][890]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.02-02.50.13:058][890]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.02-02.50.13:058][890]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.02-02.50.13:058][890]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.02-02.50.13:058][890]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.02-02.50.13:058][890]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.02-02.50.13:060][890]LogExit: Exiting.
+[2016.02.02-02.50.13:095][890]Log file closed, 02/02/16 10:50:13
